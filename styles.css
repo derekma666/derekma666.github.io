@@ -560,3 +560,104 @@ h3 { font-size: 1.25rem; letter-spacing: -.025em; }
     inset 0 1px 0 rgba(255,255,255,0.35);
 }
 
+@media (max-width: 760px) {
+  .site-header {
+    padding: 12px 16px;
+    gap: 10px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .brand-text {
+    font-size: 0.9rem;
+    max-width: 190px;
+    white-space: normal;
+    line-height: 1.15;
+  }
+
+  .brand-mark {
+    min-width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    font-size: 0.85rem;
+  }
+
+  .lang-toggle {
+    padding: 8px 11px;
+    font-size: 0.82rem;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .hero-heading {
+    font-size: clamp(3rem, 14vw, 4.2rem);
+    line-height: 0.92;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-lede {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero,
+  .split-section {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-card {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 760px) {
+  .hero-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 760px) {
+  .cards,
+  .people-grid,
+  .project-grid,
+  .metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .research-card-image {
+    height: 180px;
+  }
+
+  .person-photo {
+    width: 104px;
+    height: 104px;
+  }
+}
+
+@media (max-width: 760px) {
+  .section-pad {
+    padding: 48px 20px;
+  }
+
+  .hero {
+    padding-top: 44px;
+  }
+
+  .section-head h2,
+  .split-section h2 {
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+}
