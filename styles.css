@@ -577,9 +577,6 @@ h3 { font-size: 1.25rem; letter-spacing: -.025em; }
     gap: 10px;
   }
 
-  .nav {
-    display: none;
-  }
 
   .brand-text {
     font-size: 0.9rem;
