@@ -13,7 +13,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Home">
-      <span class="brand-mark">SR</span>
+      <span class="brand-mark">SRI</span>
       <span class="brand-text">Stochastic Risk Intelligence Lab</span>
     </a>
     <nav class="nav" aria-label="Main navigation">
@@ -23,19 +23,29 @@
       <a href="#people">People</a>
       <a href="#contact">Contact</a>
     </nav>
+    <button class="lang-toggle" id="langToggle" type="button">
+      中文
+    </button>
   </header>
 
   <main id="top">
     <section class="hero section-pad">
       <div class="hero-copy">
         <p class="eyebrow">Dr Derek Guotao Ma · University of Warwick</p>
-        <h1>From uncertainty to risk intelligence.</h1>
+        <h1 class="hero-heading">
+          From<br>
+          uncertainty to<br>
+          <span class="gradient-risk">risk intelligence.</span>
+        </h1>
         <p class="hero-lede">
           I develop stochastic, physics-informed, and AI-assisted models for complex engineering and financial systems — turning uncertain data into predictive, interpretable, and actionable risk insight.
         </p>
         <div class="hero-actions">
           <a class="button primary" href="#research">Explore research</a>
           <a class="button ghost" href="#contact">Get in touch</a>
+          <a class="button ghost" href="https://warwick.ac.uk/fac/sci/eng/people/derek_guotao_ma/" target="_blank" rel="noopener">Warwick Profile</a>
+          <a class="button ghost" href="https://scholar.google.com/citations?hl=en&user=EMWStOgAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+          <a class="button ghost" href="https://uk.linkedin.com/in/guotao-ma" target="_blank" rel="noopener">LinkedIn</a>
         </div>
         <div class="metrics" aria-label="Selected profile highlights">
           <div><strong>AI + UQ</strong><span>Random fields, GeoAI, risk</span></div>
@@ -44,25 +54,24 @@
         </div>
       </div>
       <aside class="hero-card" aria-label="Profile summary">
-        <div class="portrait-placeholder">DM</div>
+        <img class="portrait-photo" src="assets/derek-profile.jpeg" alt="Dr Derek Guotao Ma">
         <h2>Dr Derek Guotao Ma</h2>
         <p>Assistant Professor in Engineering<br>School of Engineering, University of Warwick</p>
         <ul>
           <li>Stochastic modelling & uncertainty quantification</li>
-          <li>AI-informed geotechnical random fields</li>
-          <li>Geohazard risk and infrastructure resilience</li>
-          <li>Energy risk, computational finance & trading models</li>
+          <li>AI-informed multivariate random fields</li>
+          <li>Catastrophe modeling and urban resilience</li>
+          <li>Energy risk pricing models</li>
         </ul>
+        <div class="profile-links">
       </aside>
     </section>
 
     <section class="ticker" aria-label="Research themes">
       <span>Random Fields</span>
-      <span>GeoAI</span>
-      <span>Geohazard Risk</span>
-      <span>Infrastructure Resilience</span>
+      <span>Hazard Risks</span>
+      <span>Catastrophe Modelling</span>
       <span>Energy Risk Pricing</span>
-      <span>Computational Finance</span>
     </section>
 
     <section id="research" class="section-pad split-section">
@@ -80,45 +89,70 @@
       </div>
     </section>
 
-    <section class="cards section-pad compact-top">
+    
+
+    <section class="cards section-pad compact-top research-image-cards">
       <article class="card accent-blue">
+        <img class="research-card-image" src="assets/random-field-ai.png" alt="AI-informed random field visualisation">
         <span class="card-index">01</span>
         <h3>AI-informed random fields</h3>
-        <p>Learning spatial heterogeneity from sparse observations, CPT data, images, and numerical simulations to model subsurface uncertainty.</p>
+        <p>
+          Learning spatial heterogeneity from sparse observations, measurement data, images, and numerical simulations to model subsurface uncertainty.
+        </p>
       </article>
+    
       <article class="card accent-green">
+        <img class="research-card-image" src="assets/catastrophe.png" alt="Catastrophe modelling for geohazards visualisation">
         <span class="card-index">02</span>
-        <h3>Geohazard & infrastructure risk</h3>
-        <p>Physics-informed simulation and uncertainty propagation for landslides, underground structures, slopes, and resilient infrastructure.</p>
+        <h3>Catastrophe modelling for hazards</h3>
+        <p>
+          Data-and-physics-driven modelling for landslides, debris avalanches, and geohazard risk, with uncertainty propagation and risk prediction.
+        </p>
       </article>
+    
       <article class="card accent-gold">
+        <img class="research-card-image" src="assets/energy-finance-risk.png" alt="Energy and financial risk visualisation">
         <span class="card-index">03</span>
         <h3>Energy and financial risk</h3>
-        <p>Risk pricing, tail-event modelling, stochastic processes, and AI-assisted decision systems for energy transfer and trading contexts.</p>
+        <p>
+          Risk pricing, tail-event modelling, stochastic processes, and AI-assisted decision systems for energy transfer and trading contexts.
+        </p>
       </article>
     </section>
 
     <section id="projects" class="section-pad dark-panel">
       <div class="section-head">
         <p class="eyebrow light">Selected project directions</p>
-        <h2>Bridging engineering risk, AI, and finance.</h2>
+        <h2>Building risk intelligence across physical, hazard, energy, and financial systems.</h2>
       </div>
+    
       <div class="project-grid">
         <article>
-          <h3>Spatio-temporal random fields for geotechnical systems</h3>
-          <p>AI-assisted generation, updating, and interpretation of non-stationary random fields for soil and rock heterogeneity.</p>
+          <h3>AI-informed uncertainty fields</h3>
+          <p>
+            Generating, updating, and interpreting spatial-temporal uncertainty fields from sparse data, simulations, and images for risk-aware modelling.
+          </p>
         </article>
+    
         <article>
-          <h3>Stochastic material point method for landslide risk</h3>
-          <p>Uncertainty-aware simulation of debris avalanche initiation, runout, and consequence under complex terrain and material variability.</p>
+          <h3>Catastrophe and hazard risk assessment</h3>
+          <p>
+            Modelling low-probability, high-consequence events through stochastic simulation, scenario analysis, and uncertainty propagation.
+          </p>
         </article>
+    
         <article>
-          <h3>Computer vision for crack propagation and rock mechanics</h3>
-          <p>Image segmentation, perception models, and physical interpretation for geotechnical image analysis and failure mechanisms.</p>
+          <h3>Visual intelligence for risk modelling</h3>
+          <p>
+            Using computer vision, segmentation, and perception models to extract risk-relevant patterns from images, fields, and physical processes.
+          </p>
         </article>
+    
         <article>
-          <h3>Energy risk transfer and computational finance</h3>
-          <p>Hybrid CAT bond pricing, risk transfer structures, option-style thinking, and data-driven pricing for energy and climate-related risk.</p>
+          <h3>Energy and financial risk transfer</h3>
+          <p>
+            Developing stochastic pricing, risk transfer, and decision models for energy, climate-related, and financial uncertainty.
+          </p>
         </article>
       </div>
     </section>
@@ -130,13 +164,12 @@
       </div>
       <div class="rich-text">
         <p>
-          I teach Engineering Mathematics and supervise student projects across civil engineering, applied mathematics, computer science, blockchain, AI, and risk analysis. My teaching aims to help students move from formula-based learning to model-based reasoning.
-        </p>
+          I teach Engineering Mathematics and supervise student projects across uncertainty modelling, AI for engineering, risk analysis, applied mathematics, and computational decision-making. My teaching aims to help students move from formula-based learning to model-based reasoning.        </p>
         <div class="pill-row">
           <span>Engineering Mathematics</span>
           <span>Individual Projects</span>
           <span>Degree Apprenticeships</span>
-          <span>AI for Engineering</span>
+          <span>AI for Risk Analysis</span>
         </div>
       </div>
     </section>
@@ -145,34 +178,102 @@
       <div class="section-head center">
         <p class="eyebrow">People</p>
         <h2>Building a small, ambitious, interdisciplinary research group.</h2>
-        <p>We welcome students and collaborators interested in uncertainty, AI, geotechnics, infrastructure risk, energy risk, and computational finance.</p>
+        <p>
+          We welcome students, visiting scholars, and collaborators interested in stochastic risk intelligence, uncertainty modelling, AI-informed inference, hazard risk assessment, energy risk, and computational finance.
+        </p>
       </div>
+    
       <div class="people-grid">
         <article class="person-card">
-          <div class="avatar">QM</div>
-          <h3>Qingyang Zhang</h3>
-          <p>PhD student · stochastic modelling and geotechnical uncertainty</p>
+          <img class="person-photo" src="assets/qingyang-zhang-avatar.png" alt="Ms Qingyang Zhang">
+          <h3>Ms Qingyang Zhang</h3>
+          <p class="person-title">PhD Student</p>
+          <p class="person-affiliation">University of Warwick</p>
+          <p>Stochastic modelling, geotechnical uncertainty, and random field analysis.</p>
         </article>
+    
         <article class="person-card">
-          <div class="avatar">SJ</div>
-          <h3>Sijie Fu</h3>
-          <p>PhD student · finance, pricing, and risk modelling</p>
+          <img class="person-photo" src="assets/sijie-fu-avatar.png" alt="Mr Sijie Fu">
+          <h3>Mr Sijie Fu</h3>
+          <p class="person-title">PhD Student</p>
+          <p class="person-affiliation">University of Warwick</p>
+          <p>Finance, pricing, quantitative risk modelling, and computational finance.</p>
         </article>
-        <article class="person-card invite">
-          <div class="avatar">+</div>
+    
+        <article class="person-card">
+          <img class="person-photo" src="assets/xiao-han-avatar.png" alt="Mr Xiao Han">
+          <h3>Mr Xiaohan Zhang</h3>
+          <p class="person-title">PhD Student</p>
+          <p class="person-affiliation">University of Warwick</p>
+          <p>AI, machine learning, computational vision, and geotechnical image analysis.</p>
+        </article>
+    
+        <article class="person-card">
+          <img class="person-photo" src="assets/xian-liu-avatar.png" alt="Dr Xian Liu">
+          <h3>Dr Xian Liu</h3>
+          <p class="person-title">Previous Visiting Student · Now Marie Curie Fellow</p>
+          <p class="person-affiliation">University of Liverpool</p>
+          <p>GeoAI, stochastic modelling, and uncertainty-aware geotechnical simulation.</p>
+        </article>
+    
+        <article class="person-card">
+          <img class="person-photo" src="assets/honghu-jie-avatar.png" alt="Mr Hujie Hong">
+          <h3>Mr Honghu Jie</h3>
+          <p class="person-title">Visiting PhD Student</p>
+          <p class="person-affiliation">Nanchang University, China</p>
+          <p>Rainfall-induced landslides, neural operators, and physics-informed modelling.</p>
+        </article>
+    
+        <article class="person-card">
+          <img class="person-photo" src="assets/kunpeng-lu-avatar.png" alt="Dr Kunpeng Lu">
+          <h3>Dr Kunpeng Lu</h3>
+          <p class="person-title">Associate Professor</p>
+          <p class="person-affiliation">Guizhou University, China</p>
+          <p>Visiting scholar and collaborator in geotechnical modelling and risk analysis.</p>
+        </article>
+    
+        <article class="person-card invite join-card">
+          <div class="join-icon" aria-hidden="true">
+            <span class="join-icon-mail">✉</span>
+          </div>
+        
           <h3>Join the lab</h3>
-          <p>Prospective PhD students, visiting scholars, and collaborators are encouraged to contact us.</p>
+          <p class="person-title">Open Opportunities</p>
+          <p class="person-affiliation">PhD Students · Visiting Scholars · Collaborators</p>
+        
+          <p>
+            <p>
+              I welcome motivated students and collaborators interested in stochastic risk intelligence,
+              AI-informed uncertainty modelling, hazard risk assessment, energy risk, and computational finance.
+            </p>
+          </p>
+        
+          <div class="join-actions">
+            <a
+              class="join-button primary"
+              href="mailto:Derek.Ma.1@warwick.ac.uk?subject=Expression%20of%20Interest%20-%20Joining%20Stochastic%20Risk%20Intelligence%20Lab&body=Dear%20Dr%20Ma,%0D%0A%0D%0AI%20am%20interested%20in%20joining%20or%20collaborating%20with%20the%20Stochastic%20Risk%20Intelligence%20Lab.%0D%0A%0D%0AName:%20%0D%0ACurrent%20affiliation:%20%0D%0AInterested%20role:%20PhD%20student%20/%20Visiting%20scholar%20/%20Collaborator%0D%0AResearch%20interests:%20%0D%0ARelevant%20background:%20%0D%0ACV%20or%20website%20link:%20%0D%0A%0D%0ABest%20regards,%0D%0A"
+            >
+              Email Derek
+            </a>
+        
+            <a
+              class="join-button ghost"
+              href="https://forms.gle/YOUR_FORM_LINK_HERE"
+              target="_blank"
+              rel="noopener"
+            >
+              Submit interest form
+            </a>
+          </div>
         </article>
       </div>
     </section>
-
     <section id="contact" class="section-pad contact-section">
       <div class="contact-card">
         <p class="eyebrow">Contact</p>
         <h2>Interested in collaboration?</h2>
         <p>
-          I am open to interdisciplinary collaborations across geotechnical AI, stochastic modelling, infrastructure resilience, energy risk, and computational finance.
-        </p>
+          I am open to interdisciplinary collaborations in stochastic risk intelligence, AI-informed uncertainty modelling, catastrophe and hazard risk assessment, energy risk, and computational finance.        </p>
         <div class="contact-links">
           <a href="mailto:Derek.Ma.1@warwick.ac.uk">Derek.Ma.1@warwick.ac.uk</a>
           <a href="https://warwick.ac.uk" target="_blank" rel="noopener">University of Warwick</a>
