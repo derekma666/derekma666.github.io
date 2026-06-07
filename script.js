@@ -168,3 +168,53 @@ if (langToggle) {
     setLanguage(currentLang === "en" ? "zh" : "en");
   });
 }
+
+function animateCountUpMetrics() {
+  const metrics = document.querySelectorAll(".count-up");
+
+  metrics.forEach((metric) => {
+    if (metric.dataset.animated === "true") return;
+
+    const target = Number(metric.dataset.value);
+    const suffix = metric.dataset.suffix || "";
+
+    if (!target) return;
+
+    metric.dataset.animated = "true";
+
+    const duration = 1300;
+    const startTime = performance.now();
+
+    function update(now) {
+      const progress = Math.min((now - startTime) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 4);
+      const current = Math.floor(target * eased);
+
+      metric.textContent = current + suffix;
+
+      if (progress < 1) {
+        requestAnimationFrame(update);
+      } else {
+        metric.textContent = target + suffix;
+      }
+    }
+
+    requestAnimationFrame(update);
+  });
+}
+
+const impactMetrics = document.querySelector(".impact-metrics");
+
+if (impactMetrics) {
+  const impactObserver = new IntersectionObserver(
+    (entries) => {
+      if (entries[0].isIntersecting) {
+        animateCountUpMetrics();
+        impactObserver.disconnect();
+      }
+    },
+    { threshold: 0.35 }
+  );
+
+  impactObserver.observe(impactMetrics);
+}
