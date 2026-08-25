@@ -46,6 +46,13 @@ const translations = {
     teachingEyebrow: "Teaching & supervision", teachingTitle: "From formulas to <span class=\"gradient-emphasis\">model-based reasoning.</span>",
     teachingText: "I teach <strong class=\"copy-emphasis\">engineering mathematics</strong> and supervise projects across <span class=\"marker-highlight\">uncertainty modelling, AI for engineering, risk analysis, and computational decision-making.</span>",
     teachingArea1: "Engineering Mathematics", teachingArea2: "Mathematics Bridging Programme", teachingArea3: "Individual Projects", teachingArea4: "AI for Risk Analysis",
+    teachingEvidenceEyebrow: "Evidence of teaching", teachingEvidenceTitle: "Support that students can <span class=\"gradient-emphasis\">feel and measure.</span>",
+    teachingEvidenceText: "Selected aggregate indicators from annual teaching records. No student names, identifiers, or individually attributable comments are published.",
+    teachingMetric1Title: "Survey satisfaction", teachingMetric1Text: "Recorded in the 2023–24 annual teaching review.",
+    teachingMetric2Title: "Additional support sessions", teachingMetric2Text: "Weekly Engineering Mathematics support in Term 2.",
+    teachingMetric3Title: "Students supported", teachingMetric3Text: "20 CEDA apprentices and 8 full-time personal tutees.",
+    teachingPracticeEyebrow: "Curriculum leadership", teachingPracticeTitle: "Engineering Mathematics, redesigned around <span class=\"gradient-emphasis\">reasoning and application.</span>",
+    teachingPracticeText: "Module leadership across ES1A1, ES1A8, and the Mathematics Bridging Programme, with formative tests, mock assessments, and structured support built into the learning journey.",
     peopleEyebrow: "People & collaborators", peopleTitle: "A focused, interdisciplinary <span class=\"gradient-emphasis\">applied mathematics network.</span>",
     peopleText: "Students and collaborators connect <strong class=\"copy-emphasis\">stochastic modelling, engineering science, Earth systems, computer vision, and financial risk.</strong>",
     person1Role: "PhD Student", person1Affiliation: "University of Warwick, United Kingdom", person1Text: "Stochastic modelling, geotechnical uncertainty, and random fields.",
@@ -112,6 +119,13 @@ const translations = {
     teachingEyebrow: "教学与指导", teachingTitle: "从公式学习走向<span class=\"gradient-emphasis\">模型化思维。</span>",
     teachingText: "我教授<strong class=\"copy-emphasis\">工程数学</strong>，并指导<span class=\"marker-highlight\">不确定性建模、工程 AI、风险分析与计算决策</span>等方向的学生项目。",
     teachingArea1: "工程数学", teachingArea2: "数学衔接课程", teachingArea3: "学生独立项目", teachingArea4: "风险分析中的人工智能",
+    teachingEvidenceEyebrow: "教学成效", teachingEvidenceTitle: "让学生能够<span class=\"gradient-emphasis\">感受到、也衡量得到</span>的支持。",
+    teachingEvidenceText: "以下为年度教学记录中的汇总指标；不公开学生姓名、身份信息或可追溯到个人的评论。",
+    teachingMetric1Title: "教学满意度", teachingMetric1Text: "记录于 2023–24 年度教学评审。",
+    teachingMetric2Title: "额外辅导课", teachingMetric2Text: "第二学期每周开展工程数学支持课程。",
+    teachingMetric3Title: "获得辅导的学生", teachingMetric3Text: "20 名 CEDA 学徒与 8 名全日制学生。",
+    teachingPracticeEyebrow: "课程建设", teachingPracticeTitle: "以<span class=\"gradient-emphasis\">推理与应用</span>为核心，重新设计工程数学学习体验。",
+    teachingPracticeText: "负责 ES1A1、ES1A8 与数学衔接课程，并把形成性测试、模拟考核及结构化辅导融入完整学习过程。",
     peopleEyebrow: "学生与合作者", peopleTitle: "一个专注而交叉的<span class=\"gradient-emphasis\">应用数学研究网络。</span>",
     peopleText: "学生与合作者共同连接<strong class=\"copy-emphasis\">随机建模、工程科学、地球系统、计算机视觉与金融风险。</strong>",
     person1Role: "博士研究生", person1Affiliation: "英国华威大学", person1Text: "随机建模、岩土不确定性与随机场。",
@@ -184,7 +198,7 @@ document.querySelectorAll(".section-intro").forEach((sectionIntro) => {
 addRevealGroup(document.querySelector(".impact-copy"), [...document.querySelectorAll(".impact-copy > *")]);
 addRevealGroup(document.querySelector(".contact-card"), [...document.querySelectorAll(".contact-card > *")]);
 
-document.querySelectorAll(".signature-band > p, .research-card, .impact-grid article, .teaching-list > span, .person-card").forEach((item) => {
+document.querySelectorAll(".signature-band > p, .research-card, .impact-grid article, .teaching-list > span, .evidence-metric, .teaching-practice, .person-card").forEach((item) => {
   addRevealGroup(item, [item]);
 });
 
