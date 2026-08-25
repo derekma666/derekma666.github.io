@@ -47,12 +47,16 @@ const translations = {
     teachingText: "I teach <strong class=\"copy-emphasis\">engineering mathematics</strong> and supervise projects across <span class=\"marker-highlight\">uncertainty modelling, AI for engineering, risk analysis, and computational decision-making.</span>",
     teachingArea1: "Engineering Mathematics", teachingArea2: "Mathematics Bridging Programme", teachingArea3: "Individual Projects", teachingArea4: "AI for Risk Analysis",
     teachingEvidenceEyebrow: "Evidence of teaching", teachingEvidenceTitle: "Support that students can <span class=\"gradient-emphasis\">feel and measure.</span>",
-    teachingEvidenceText: "Selected aggregate indicators from annual teaching records. No student names, identifiers, or individually attributable comments are published.",
-    teachingMetric1Title: "Survey satisfaction", teachingMetric1Text: "Recorded in the 2023–24 annual teaching review.",
-    teachingMetric2Title: "Additional support sessions", teachingMetric2Text: "Weekly Engineering Mathematics support in Term 2.",
-    teachingMetric3Title: "Students supported", teachingMetric3Text: "20 CEDA apprentices and 8 full-time personal tutees.",
-    teachingPracticeEyebrow: "Curriculum leadership", teachingPracticeTitle: "Engineering Mathematics, redesigned around <span class=\"gradient-emphasis\">reasoning and application.</span>",
-    teachingPracticeText: "Module leadership across ES1A1, ES1A8, and the Mathematics Bridging Programme, with formative tests, mock assessments, and structured support built into the learning journey.",
+    teachingEvidenceText: "Aggregate results and short, non-identifying extracts from Warwick School of Engineering student surveys.",
+    teachingMetric1Title: "Teaching satisfaction", teachingMetric1Text: "Reported for both ES1A1 and ES1A8.",
+    teachingMetric2Title: "Subject engagement", teachingMetric2Text: "ES1A1 / ES1A8, respectively.",
+    teachingMetric3Title: "Learning support", teachingMetric3Text: "Reported for both ES1A1 and ES1A8.",
+    teachingSurveySource: "2025–26 School of Engineering student surveys · 17 submitted responses across ES1A1 and ES1A8",
+    teachingQuote1: "“Derek teaches an example and then allows the class to engage… providing support where required.”", teachingQuote1Source: "Anonymous student feedback · ES1A1",
+    teachingQuote2: "“Brilliant notes… and clear structure. Derek is brilliant with being consistent in every lesson’s delivery.”", teachingQuote2Source: "Anonymous student feedback · ES1A8",
+    teachingActionEyebrow: "Feedback into action", teachingActionTitle: "Listening, refining, and <span class=\"gradient-emphasis\">making mathematics learnable.</span>",
+    teachingActionText: "Student feedback continues to shape the balance between mathematical depth, practice, assessment clarity, and pace.",
+    teachingAction1: "More guided practice", teachingAction2: "Clearer assessment guidance", teachingAction3: "Better-paced revision support",
     peopleEyebrow: "People & collaborators", peopleTitle: "A focused, interdisciplinary <span class=\"gradient-emphasis\">applied mathematics network.</span>",
     peopleText: "Students and collaborators connect <strong class=\"copy-emphasis\">stochastic modelling, engineering science, Earth systems, computer vision, and financial risk.</strong>",
     person1Role: "PhD Student", person1Affiliation: "University of Warwick, United Kingdom", person1Text: "Stochastic modelling, geotechnical uncertainty, and random fields.",
@@ -120,12 +124,16 @@ const translations = {
     teachingText: "我教授<strong class=\"copy-emphasis\">工程数学</strong>，并指导<span class=\"marker-highlight\">不确定性建模、工程 AI、风险分析与计算决策</span>等方向的学生项目。",
     teachingArea1: "工程数学", teachingArea2: "数学衔接课程", teachingArea3: "学生独立项目", teachingArea4: "风险分析中的人工智能",
     teachingEvidenceEyebrow: "教学成效", teachingEvidenceTitle: "让学生能够<span class=\"gradient-emphasis\">感受到、也衡量得到</span>的支持。",
-    teachingEvidenceText: "以下为年度教学记录中的汇总指标；不公开学生姓名、身份信息或可追溯到个人的评论。",
-    teachingMetric1Title: "教学满意度", teachingMetric1Text: "记录于 2023–24 年度教学评审。",
-    teachingMetric2Title: "额外辅导课", teachingMetric2Text: "第二学期每周开展工程数学支持课程。",
-    teachingMetric3Title: "获得辅导的学生", teachingMetric3Text: "20 名 CEDA 学徒与 8 名全日制学生。",
-    teachingPracticeEyebrow: "课程建设", teachingPracticeTitle: "以<span class=\"gradient-emphasis\">推理与应用</span>为核心，重新设计工程数学学习体验。",
-    teachingPracticeText: "负责 ES1A1、ES1A8 与数学衔接课程，并把形成性测试、模拟考核及结构化辅导融入完整学习过程。",
+    teachingEvidenceText: "数据来自华威大学工程学院学生调查，仅呈现汇总结果与无法识别个人的短评摘录。",
+    teachingMetric1Title: "教学满意度", teachingMetric1Text: "ES1A1 与 ES1A8 均为此分数。",
+    teachingMetric2Title: "课堂吸引力", teachingMetric2Text: "依次为 ES1A1 / ES1A8。",
+    teachingMetric3Title: "学习支持", teachingMetric3Text: "ES1A1 与 ES1A8 均为此分数。",
+    teachingSurveySource: "2025–26 工程学院学生调查 · ES1A1 与 ES1A8 共收到 17 份问卷",
+    teachingQuote1: "“Derek 先讲解例题，再让全班自主解题，并在需要时提供支持。”", teachingQuote1Source: "匿名学生反馈 · ES1A1",
+    teachingQuote2: "“印发的讲义非常出色，结构也很清晰；Derek 每节课的教学都非常稳定。”", teachingQuote2Source: "匿名学生反馈 · ES1A8",
+    teachingActionEyebrow: "让反馈转化为行动", teachingActionTitle: "持续倾听、不断改进，让<span class=\"gradient-emphasis\">数学真正可学。</span>",
+    teachingActionText: "学生反馈持续帮助我在数学深度、练习强度、考核说明与教学节奏之间取得更好的平衡。",
+    teachingAction1: "增加引导式练习", teachingAction2: "提供更清晰的考核说明", teachingAction3: "优化复习支持与教学节奏",
     peopleEyebrow: "学生与合作者", peopleTitle: "一个专注而交叉的<span class=\"gradient-emphasis\">应用数学研究网络。</span>",
     peopleText: "学生与合作者共同连接<strong class=\"copy-emphasis\">随机建模、工程科学、地球系统、计算机视觉与金融风险。</strong>",
     person1Role: "博士研究生", person1Affiliation: "英国华威大学", person1Text: "随机建模、岩土不确定性与随机场。",
@@ -198,7 +206,7 @@ document.querySelectorAll(".section-intro").forEach((sectionIntro) => {
 addRevealGroup(document.querySelector(".impact-copy"), [...document.querySelectorAll(".impact-copy > *")]);
 addRevealGroup(document.querySelector(".contact-card"), [...document.querySelectorAll(".contact-card > *")]);
 
-document.querySelectorAll(".signature-band > p, .research-card, .impact-grid article, .teaching-list > span, .evidence-metric, .teaching-practice, .person-card").forEach((item) => {
+document.querySelectorAll(".signature-band > p, .research-card, .impact-grid article, .teaching-list > span, .evidence-metric, .student-quote, .feedback-action, .person-card").forEach((item) => {
   addRevealGroup(item, [item]);
 });
 
