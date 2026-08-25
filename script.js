@@ -155,31 +155,205 @@ const translations = {
   }
 };
 
+translations.ko = {
+  skipLink: "본문으로 건너뛰기",
+  brandLab: "확률적 리스크 인텔리전스 연구실",
+  navProfile: "소개", navResearch: "연구", navImpact: "성과", navPeople: "구성원", navContact: "연락처",
+  heroEyebrow: "워릭대학교 · 공학부 조교수",
+  heroLine1: "불확실성에서", heroLine2: "리스크 인텔리전스로", heroLine3: "나아가다.",
+  heroTagline: "불확실성을 모델링하고, 증거를 해석하며, 의사결정을 설계합니다.",
+  heroLede: "불확실한 물리·환경·에너지·금융 시스템을 위한 AI 기반 확률 모델을 개발하여, 희소하고 복잡한 데이터를 해석 가능하고 의사결정에 활용할 수 있는 리스크 통찰로 전환합니다.",
+  exploreResearch: "연구 살펴보기", startConversation: "대화 시작하기",
+  profileKicker: "연구 정체성",
+  profileName: "Derek G. Ma 박사",
+  profileRole: "워릭대학교<br>공학부 조교수",
+  credential1Title: "조교수", credential1Affiliation: "워릭대학교, 영국",
+  credential2Title: "방문교수", credential2Affiliation: "푸단대학교, 중국",
+  credential3Title: "데이터 과학자", credential3Affiliation: "머신러닝",
+  credential4Title: "학위 도제과정 튜터", credential4Affiliation: "CEDA 프로그램",
+  tagStochastic: "확률 모델링", tagRisk: "리스크 분석",
+  profileNote: "인공지능, 불확실성 정량화, 의사결정과학의 접점에서 연구합니다.",
+  signature1Title: "모델링", signature1Text: "무작위성을 구조로 표현",
+  signature2Title: "해석", signature2Text: "증거에서 추론으로",
+  signature3Title: "설계", signature3Text: "리스크 아래의 의사결정",
+  researchEyebrow: "서로 연결된 세 가지 연구 축",
+  researchTitle: "하나의 수학적 의제: <span class=\"gradient-emphasis\">불확실한 증거</span>에서 <span class=\"gradient-emphasis\">리스크 인지 설계</span>로.",
+  researchIntro: "연구는 <strong class=\"copy-emphasis\">확률론, 확률과정, 역문제, 과학적 머신러닝, 의사결정 분석</strong>을 아우르며 하나의 질문에 답합니다. <span class=\"marker-highlight\">수학적 구조는 불완전한 증거를 어떻게 신뢰할 수 있는 행동으로 바꿀 수 있는가?</span>",
+  branch1Label: "확률 시스템",
+  branch1Title: "AI 기반 랜덤 필드와 리스크 평가",
+  branch1Text: "희소 관측, 시뮬레이션, 사전지식으로부터 시공간 변동성을 학습하고, 그 불확실성을 시스템 수준의 리스크까지 일관되게 전달합니다.",
+  branch1Item1: "다변량 랜덤 필드", branch1Item2: "베이지안 학습과 코퓰라", branch1Item3: "불확실성 전파",
+  branch2Label: "시각 인텔리전스",
+  branch2Title: "지반재료를 위한 시각 AI와 컴퓨터 비전",
+  branch2Text: "이미지와 물리 과정에서 리스크 관련 구조를 추출하고, 인지 모델과 역학을 연결하여 설명 가능한 재해 인텔리전스를 구축합니다.",
+  branch2Item1: "분할과 표현학습", branch2Item2: "물리정보 AI", branch2Item3: "재난 및 지질재해 리스크",
+  branch3Label: "의사결정 인텔리전스",
+  branch3Title: "에너지 리스크 가격결정과 의사결정",
+  branch3Text: "시장 불확실성, 물리적 노출, 전략적 의사결정이 상호작용하는 환경에서 가격결정, 꼬리사건, 리스크 이전 모델을 개발합니다.",
+  branch3Item1: "리스크 가격결정과 이전", branch3Item2: "꼬리사건 모델링", branch3Item3: "AI 지원 의사결정",
+  impactEyebrow: "실천으로 이어지는 연구",
+  impactTitle: "<span class=\"gradient-emphasis on-dark\">수학적 모델</span>을 실제 의사결정과 연결합니다.",
+  impactText: "연구는 <strong class=\"light-emphasis\">기초 방법론</strong>에서 공학 응용, 정책 리스크, 그리고 <strong class=\"light-emphasis\">불확실성을 위한 새로운 금융 메커니즘</strong>까지 확장됩니다.",
+  viewFullProfile: "워릭대학교 전체 프로필 보기",
+  impact1Title: "영국 왕립공학한림원", impact1Text: "영국 글로벌 탤런트 경로를 통해 전문성을 인정받았습니다.",
+  impact2Title: "정책 자문", impact2Text: "웨일스 정부 석탄 폐석더미 안전 태스크포스에 기여했습니다.",
+  impact3Title: "국제 협력", impact3Text: "ISSMGE 기술위원회 TC309의 통신위원입니다.",
+  impact4Title: "연구 기반 교육", impact4Text: "공학수학, 응용 모델링, 학생 연구지도를 수행합니다.",
+  teachingEyebrow: "교육 및 지도", teachingTitle: "공식에서 <span class=\"gradient-emphasis\">모델 기반 추론</span>으로.",
+  teachingText: "<strong class=\"copy-emphasis\">공학수학</strong>을 가르치고 <span class=\"marker-highlight\">불확실성 모델링, 공학 AI, 리스크 분석, 계산 의사결정</span> 분야의 학생 프로젝트를 지도합니다.",
+  teachingArea1: "공학수학", teachingArea2: "수학 브리징 프로그램", teachingArea3: "개별 프로젝트", teachingArea4: "리스크 분석을 위한 AI",
+  teachingEvidenceEyebrow: "교육 성과", teachingEvidenceTitle: "학생이 <span class=\"gradient-emphasis\">체감하고 측정할 수 있는</span> 지원.",
+  teachingEvidenceText: "워릭대학교 공학부 학생 설문의 집계 결과와 개인을 식별할 수 없는 짧은 의견만 제시합니다.",
+  teachingMetric1Title: "교육 만족도", teachingMetric1Text: "ES1A1과 ES1A8 모두 동일한 점수입니다.",
+  teachingMetric2Title: "수업 몰입도", teachingMetric2Text: "ES1A1과 ES1A8에서 보고된 최고 점수입니다.",
+  teachingMetric3Title: "학습 지원", teachingMetric3Text: "ES1A1과 ES1A8 모두 동일한 점수입니다.",
+  teachingSurveySource: "2025–26 공학부 학생 설문 · ES1A1과 ES1A8에서 총 17건의 응답",
+  teachingQuote1: "“Derek은 예제를 설명한 뒤 학생들이 직접 문제에 참여하게 하고, 필요할 때 지원을 제공합니다.”", teachingQuote1Source: "익명 학생 의견 · ES1A1",
+  teachingQuote2: "“인쇄된 노트가 훌륭하고 구조가 명확합니다. Derek의 수업은 매 시간 일관되게 잘 진행됩니다.”", teachingQuote2Source: "익명 학생 의견 · ES1A8",
+  teachingActionEyebrow: "피드백을 행동으로", teachingActionTitle: "경청하고 개선하며 <span class=\"gradient-emphasis\">배울 수 있는 수학</span>을 만듭니다.",
+  teachingActionText: "학생 피드백은 수학적 깊이, 연습, 평가 안내, 수업 속도의 균형을 지속적으로 개선하는 데 반영됩니다.",
+  teachingAction1: "더 많은 단계별 연습", teachingAction2: "더 명확한 평가 안내", teachingAction3: "속도를 조정한 복습 지원",
+  peopleEyebrow: "학생 및 협력 연구자", peopleTitle: "집중도 높고 학제적인 <span class=\"gradient-emphasis\">응용수학 연구 네트워크.</span>",
+  peopleText: "학생과 협력 연구자들은 <strong class=\"copy-emphasis\">확률 모델링, 공학과학, 지구 시스템, 컴퓨터 비전, 금융 리스크</strong>를 연결합니다.",
+  person1Role: "박사과정 연구원", person1Affiliation: "워릭대학교, 영국", person1Text: "확률 모델링, 지반공학 불확실성, 랜덤 필드, 공간 변동 공학 시스템의 확률론적 표현을 연구합니다.",
+  person2Role: "박사과정 연구원", person2Affiliation: "워릭대학교, 영국", person2Text: "정량적 리스크, 가격결정, 계산금융을 연구하며 불확실성 기반 가치평가, 꼬리사건, 데이터 기반 의사결정에 중점을 둡니다.",
+  person3Role: "박사과정 연구원", person3Affiliation: "워릭대학교, 영국", person3Text: "공학 재료, 구조, 리스크의 해석 가능한 분석을 위한 머신러닝, 컴퓨터 비전, 지반공학 이미징을 연구합니다.",
+  person4Role: "방문연구원", person4Affiliation: "난창대학교, 중국", person4Text: "빠른 시뮬레이션, 불확실성 전파, 재해 예측을 위한 산사태 동역학, 신경 연산자, 물리정보 모델링을 연구합니다.",
+  person5Role: "연구조교", person5Affiliation: "홍콩중문대학교, 중국 홍콩 특별행정구", person5Text: "재료 특성, 공간 패턴, 공학적 해석을 연결하는 영상 분할과 AI 기반 지반공학 시각 인텔리전스를 연구합니다.",
+  person6Role: "전 방문학생 · 마리 스클로도프스카퀴리 펠로우", person6Affiliation: "리버풀대학교, 영국", person6Text: "공간적으로 변동하는 지반 조건과 데이터 기반 지반공학 분석을 위한 GeoAI, 확률 모델링, 불확실성 인지 시뮬레이션을 연구합니다.",
+  person7Role: "응용 AI 연구원", person7Affiliation: "워릭대학교, 영국", person7Text: "공학 검사, 과학 이미징, 해석 가능한 패턴 인식을 위한 머신러닝, 컴퓨터 비전, 영상 분석을 연구합니다.",
+  person8Role: "부교수 · 방문학자 및 협력 연구자", person8Affiliation: "구이저우대학교, 중국", person8Text: "복잡한 지반 거동, 인프라 회복탄력성, 공학 의사결정을 위한 지반공학 모델링, 불확실성 정량화, 리스크 분석을 연구합니다.",
+  person9Name: "Min Zhong", person9Role: "방문연구원", person9Affiliation: "워릭대학교, 영국", person9Text: "응용과학을 위한 공학 모델링, 데이터 기반 분석, 불확실성 인지 계산기법의 협력 연구를 수행합니다.",
+  joinLabel: "열린 기회", joinTitle: "연구실에 합류하기",
+  joinText: "세 가지 연구 축과 관심이 맞닿아 있는 박사과정 지원자, 방문학자, 협력 연구자의 구체적인 문의를 환영합니다.",
+  emailDerek: "Derek에게 이메일 보내기",
+  contactEyebrow: "연락처", contactTitle: "불확실성을 유용한 의사결정으로 바꿉시다.",
+  contactText: "연구 협력, 학생 지도, 정책 연구 또는 학제간 프로젝트에 관해 논의하려면 간단한 이메일로 시작해 주세요.",
+  footerTagline: "확률적 리스크 인텔리전스 연구실 · 불확실성을 모델링하고, 증거를 해석하며, 의사결정을 설계합니다.",
+  backToTop: "맨 위로 ↑"
+};
+
+translations.ja = {
+  skipLink: "本文へ移動",
+  brandLab: "確率的リスク・インテリジェンス研究室",
+  navProfile: "プロフィール", navResearch: "研究", navImpact: "社会実装", navPeople: "メンバー", navContact: "お問い合わせ",
+  heroEyebrow: "ウォーリック大学 · 工学部助教",
+  heroLine1: "不確実性から", heroLine2: "リスク・インテリジェンスへ", heroLine3: "つなげる。",
+  heroTagline: "不確実性をモデル化し、証拠を解釈し、意思決定を設計する。",
+  heroLede: "不確実な物理・環境・エネルギー・金融システムを対象にAIを活用した確率モデルを開発し、疎で複雑なデータを、解釈可能で意思決定に直結するリスク知見へ変換します。",
+  exploreResearch: "研究を見る", startConversation: "相談する",
+  profileKicker: "研究アイデンティティ",
+  profileName: "Derek G. Ma 博士",
+  profileRole: "ウォーリック大学<br>工学部助教",
+  credential1Title: "助教", credential1Affiliation: "ウォーリック大学、英国",
+  credential2Title: "客員教授", credential2Affiliation: "復旦大学、中国",
+  credential3Title: "データサイエンティスト", credential3Affiliation: "機械学習",
+  credential4Title: "学位見習い制度チューター", credential4Affiliation: "CEDAプログラム",
+  tagStochastic: "確率モデリング", tagRisk: "リスク分析",
+  profileNote: "人工知能、不確実性定量化、意思決定科学の交差領域で研究しています。",
+  signature1Title: "モデル化", signature1Text: "ランダム性を構造として表現",
+  signature2Title: "解釈", signature2Text: "証拠から推論へ",
+  signature3Title: "設計", signature3Text: "リスク下の意思決定",
+  researchEyebrow: "相互につながる三つの研究軸",
+  researchTitle: "一つの数学的課題：<span class=\"gradient-emphasis\">不確実な証拠</span>から<span class=\"gradient-emphasis\">リスクを考慮した設計</span>へ。",
+  researchIntro: "研究は<strong class=\"copy-emphasis\">確率論、確率過程、逆問題、科学機械学習、意思決定分析</strong>を横断し、一つの問いに取り組みます。<span class=\"marker-highlight\">数学的構造は、不完全な証拠をどのように信頼できる行動へ変えられるのか。</span>",
+  branch1Label: "確率システム",
+  branch1Title: "AIを活用したランダム場とリスク評価",
+  branch1Text: "疎な観測、シミュレーション、事前知識から時空間変動を学習し、その不確実性をシステムレベルのリスク評価まで一貫して伝播させます。",
+  branch1Item1: "多変量ランダム場", branch1Item2: "ベイズ学習とコピュラ", branch1Item3: "不確実性伝播",
+  branch2Label: "視覚インテリジェンス",
+  branch2Title: "地盤材料のための視覚AIとコンピュータビジョン",
+  branch2Text: "画像と物理過程からリスクに関わる構造を抽出し、知覚モデルと力学を結び付けて説明可能な災害インテリジェンスを構築します。",
+  branch2Item1: "セグメンテーションと表現", branch2Item2: "物理情報AI", branch2Item3: "災害・地質ハザードリスク",
+  branch3Label: "意思決定インテリジェンス",
+  branch3Title: "エネルギーリスクの価格付けと意思決定",
+  branch3Text: "市場の不確実性、物理的エクスポージャー、戦略的意思決定が相互作用する状況で、価格付け、テール事象、リスク移転のモデルを開発します。",
+  branch3Item1: "リスクの価格付けと移転", branch3Item2: "テール事象モデリング", branch3Item3: "AI支援意思決定",
+  impactEyebrow: "実践につながる研究",
+  impactTitle: "<span class=\"gradient-emphasis on-dark\">数学モデル</span>を現実の意思決定へつなぐ。",
+  impactText: "研究は<strong class=\"light-emphasis\">基礎手法</strong>から工学応用、政策リスク、さらに<strong class=\"light-emphasis\">不確実性に対応する新しい金融メカニズム</strong>まで広がっています。",
+  viewFullProfile: "ウォーリック大学のプロフィールを見る",
+  impact1Title: "英国王立工学アカデミー", impact1Text: "英国グローバル・タレント制度を通じて専門性が認められました。",
+  impact2Title: "政策助言", impact2Text: "ウェールズ政府の石炭ボタ山安全タスクフォースに貢献しました。",
+  impact3Title: "国際連携", impact3Text: "ISSMGE技術委員会TC309の通信委員です。",
+  impact4Title: "研究に基づく教育", impact4Text: "工学数学、応用モデリング、学生研究指導を行っています。",
+  teachingEyebrow: "教育・研究指導", teachingTitle: "公式から<span class=\"gradient-emphasis\">モデルに基づく推論</span>へ。",
+  teachingText: "<strong class=\"copy-emphasis\">工学数学</strong>を教え、<span class=\"marker-highlight\">不確実性モデリング、工学AI、リスク分析、計算意思決定</span>に関する学生プロジェクトを指導しています。",
+  teachingArea1: "工学数学", teachingArea2: "数学ブリッジング・プログラム", teachingArea3: "個別プロジェクト", teachingArea4: "リスク分析のためのAI",
+  teachingEvidenceEyebrow: "教育実績", teachingEvidenceTitle: "学生が<span class=\"gradient-emphasis\">実感し、測定できる</span>支援。",
+  teachingEvidenceText: "ウォーリック大学工学部の学生アンケートから、集計結果と個人を特定できない短いコメントのみを掲載しています。",
+  teachingMetric1Title: "教育満足度", teachingMetric1Text: "ES1A1とES1A8の両方で同じ評価です。",
+  teachingMetric2Title: "授業への関与", teachingMetric2Text: "ES1A1とES1A8で報告された最高評価です。",
+  teachingMetric3Title: "学習支援", teachingMetric3Text: "ES1A1とES1A8の両方で同じ評価です。",
+  teachingSurveySource: "2025–26 工学部学生アンケート · ES1A1とES1A8で計17件の回答",
+  teachingQuote1: "「Derekは例題を説明した後、学生自身が問題に取り組めるようにし、必要なときに支援してくれます。」", teachingQuote1Source: "匿名の学生コメント · ES1A1",
+  teachingQuote2: "「配布ノートは素晴らしく、構成も明確です。Derekの授業は毎回一貫して丁寧です。」", teachingQuote2Source: "匿名の学生コメント · ES1A8",
+  teachingActionEyebrow: "フィードバックを行動へ", teachingActionTitle: "耳を傾け、改善し、<span class=\"gradient-emphasis\">学べる数学</span>をつくる。",
+  teachingActionText: "学生の声を、数学的な深さ、演習量、評価説明、授業ペースのより良いバランスへ継続的に反映しています。",
+  teachingAction1: "段階的な演習を増やす", teachingAction2: "評価方法をより明確に説明", teachingAction3: "ペースを整えた復習支援",
+  peopleEyebrow: "学生・共同研究者", peopleTitle: "焦点の明確な学際的<span class=\"gradient-emphasis\">応用数学ネットワーク。</span>",
+  peopleText: "学生と共同研究者が<strong class=\"copy-emphasis\">確率モデリング、工学科学、地球システム、コンピュータビジョン、金融リスク</strong>を結び付けます。",
+  person1Role: "博士課程学生", person1Affiliation: "ウォーリック大学、英国", person1Text: "確率モデリング、地盤工学的不確実性、ランダム場、空間変動を持つ工学システムの確率表現を研究しています。",
+  person2Role: "博士課程学生", person2Affiliation: "ウォーリック大学、英国", person2Text: "定量リスク、価格付け、計算金融を研究し、不確実性を考慮した評価、テール事象、データ駆動型意思決定に重点を置いています。",
+  person3Role: "博士課程学生", person3Affiliation: "ウォーリック大学、英国", person3Text: "工学材料、構造、リスクの解釈可能な分析に向けた機械学習、コンピュータビジョン、地盤工学イメージングを研究しています。",
+  person4Role: "客員研究員", person4Affiliation: "南昌大学、中国", person4Text: "高速シミュレーション、不確実性伝播、ハザード予測に向けた地すべり動力学、ニューラルオペレータ、物理情報モデリングを研究しています。",
+  person5Role: "研究助手", person5Affiliation: "香港中文大学、中国香港特別行政区", person5Text: "材料特徴、空間パターン、工学的解釈を結ぶ画像分割とAI支援地盤工学ビジュアル・インテリジェンスを研究しています。",
+  person6Role: "元客員学生 · マリー・スクウォドフスカ＝キュリー・フェロー", person6Affiliation: "リバプール大学、英国", person6Text: "空間変動地盤とデータ駆動型地盤解析に向けたGeoAI、確率モデリング、不確実性を考慮したシミュレーションを研究しています。",
+  person7Role: "応用AI研究員", person7Affiliation: "ウォーリック大学、英国", person7Text: "工学検査、科学イメージング、解釈可能なパターン認識のための機械学習、コンピュータビジョン、画像解析を研究しています。",
+  person8Role: "准教授 · 客員研究者・共同研究者", person8Affiliation: "貴州大学、中国", person8Text: "複雑な地盤挙動、インフラのレジリエンス、工学的意思決定に向けた地盤モデリング、不確実性定量化、リスク分析を研究しています。",
+  person9Name: "Min Zhong", person9Role: "客員研究員", person9Affiliation: "ウォーリック大学、英国", person9Text: "応用科学のための工学モデリング、データ駆動型分析、不確実性を考慮した計算手法の共同研究を行っています。",
+  joinLabel: "参加機会", joinTitle: "研究室に参加する",
+  joinText: "三つの研究軸と関心が重なる博士課程志望者、客員研究者、共同研究者からの具体的なお問い合わせを歓迎します。",
+  emailDerek: "Derekにメールする",
+  contactEyebrow: "お問い合わせ", contactTitle: "不確実性を有用な意思決定へ変えましょう。",
+  contactText: "研究連携、学生指導、政策研究、学際プロジェクトについては、簡単なメールからご相談ください。",
+  footerTagline: "確率的リスク・インテリジェンス研究室 · 不確実性をモデル化し、証拠を解釈し、意思決定を設計する。",
+  backToTop: "ページ上部へ ↑"
+};
+
 const year = document.getElementById("year");
 if (year) year.textContent = new Date().getFullYear();
 
-const toggle = document.getElementById("langToggle");
+const languageButtons = [...document.querySelectorAll("[data-lang]")];
+const htmlLanguageCodes = { en: "en", zh: "zh-CN", ko: "ko", ja: "ja" };
 let currentLanguage = "en";
 
-function setLanguage(language) {
+function setLanguage(language, persist = true) {
+  if (!translations[language]) return;
   currentLanguage = language;
-  const dictionary = translations[language];
+  const dictionary = { ...translations.en, ...translations[language] };
 
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.dataset.i18n;
     if (dictionary[key]) element.innerHTML = dictionary[key];
   });
 
-  document.documentElement.lang = language === "zh" ? "zh-CN" : "en";
-  if (toggle) {
-    toggle.textContent = language === "en" ? "中文" : "EN";
-    toggle.setAttribute("aria-label", language === "en" ? "切换为中文" : "Switch to English");
+  document.documentElement.lang = htmlLanguageCodes[language];
+  languageButtons.forEach((button) => {
+    button.setAttribute("aria-pressed", String(button.dataset.lang === language));
+  });
+
+  if (persist) {
+    try {
+      localStorage.setItem("sri-language", language);
+    } catch (_) {
+      // The language switcher still works when storage is unavailable.
+    }
   }
 }
 
-if (toggle) {
-  toggle.addEventListener("click", () => setLanguage(currentLanguage === "en" ? "zh" : "en"));
+languageButtons.forEach((button) => {
+  button.addEventListener("click", () => setLanguage(button.dataset.lang));
+});
+
+let initialLanguage = "en";
+try {
+  const savedLanguage = localStorage.getItem("sri-language");
+  if (savedLanguage && translations[savedLanguage]) initialLanguage = savedLanguage;
+} catch (_) {
+  // Default to English when storage is unavailable.
 }
+setLanguage(initialLanguage, false);
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const revealGroups = [];
