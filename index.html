@@ -1,325 +1,236 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Dr Derek Guotao Ma | Stochastic Risk Intelligence Lab</title>
-  <meta name="description" content="Academic website for Dr Derek Guotao Ma, Assistant Professor in Engineering at the University of Warwick. Research in stochastic modelling, AI, geotechnical risk, infrastructure resilience, and computational finance." />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dr Derek G. Ma | Stochastic Risk Intelligence Lab</title>
+  <meta name="description" content="Dr Derek G. Ma develops AI-informed stochastic models for uncertain engineering, environmental, energy, and financial systems at the University of Warwick.">
+  <meta name="theme-color" content="#f3efe6">
+  <meta name="apple-mobile-web-app-title" content="SRI Lab">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/sri-favicon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="image_src" href="https://derekma666.github.io/assets/sri-share-logo.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dr Derek G. Ma | Stochastic Risk Intelligence Lab">
+  <meta property="og:description" content="AI-informed modelling for uncertainty, hazards, energy, and financial decision-making.">
+  <meta property="og:url" content="https://derekma666.github.io/">
+  <meta property="og:image" content="https://derekma666.github.io/assets/sri-share-logo.png">
+  <meta property="og:image:secure_url" content="https://derekma666.github.io/assets/sri-share-logo.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+  <meta property="og:image:alt" content="SRI Lab purple circular logo">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dr Derek G. Ma | Stochastic Risk Intelligence Lab">
+  <meta name="twitter:description" content="AI-informed modelling for uncertainty, hazards, energy, and financial decision-making.">
+  <meta name="twitter:image" content="https://derekma666.github.io/assets/sri-social-preview.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,500;6..72,600&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
+
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Home">
-      <span class="brand-mark">SRI</span>
-      <span class="brand-text">Stochastic Risk Intelligence Lab</span>
+    <a class="brand" href="#top" aria-label="Dr Derek G. Ma — home">
+      <span class="brand-mark" aria-hidden="true">SRI</span>
+      <span class="brand-copy">
+        <strong>Dr Derek G. Ma</strong>
+        <small data-i18n="brandLab">Stochastic Risk Intelligence Lab</small>
+      </span>
     </a>
     <nav class="nav" aria-label="Main navigation">
-      <a href="#research">Research</a>
-      <a href="#projects">Projects</a>
-      <a href="#teaching">Teaching</a>
-      <a href="#people">People</a>
-      <a href="#contact">Contact</a>
+      <a href="#profile" data-i18n="navProfile">Profile</a>
+      <a href="#research" data-i18n="navResearch">Research</a>
+      <a href="#impact" data-i18n="navImpact">Impact</a>
+      <a href="#people" data-i18n="navPeople">People</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
     </nav>
-    <button class="lang-toggle" id="langToggle" type="button">
-      中文
-    </button>
+    <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">中文</button>
   </header>
 
-  <main id="top">
-    <section class="hero section-pad">
+  <main id="main">
+    <section class="hero section-pad" id="top">
       <div class="hero-copy">
-        <p class="eyebrow">Dr Derek Guotao Ma · University of Warwick · United kingdom</p>
-        <h1 class="hero-heading">
-          From<br>
-          uncertainty to<br>
-          <span class="gradient-risk">risk intelligence.</span>
+        <p class="eyebrow" data-i18n="heroEyebrow">Assistant Professor · University of Warwick</p>
+        <h1>
+          <span data-i18n="heroLine1">From</span><br>
+          <span data-i18n="heroLine2">uncertainty to</span><br>
+          <span class="gradient-text" data-i18n="heroLine3">risk intelligence.</span>
         </h1>
-        <p class="hero-lede">
-          I develop stochastic, physics-informed, and AI-assisted models for complex engineering 
-          systems - turning uncertain data into predictive, interpretable, and actionable risk insight.
-        </p>
+        <p class="hero-tagline" data-i18n="heroTagline">Model uncertainty. Interpret evidence. Design decisions.</p>
+        <p class="hero-lede" data-i18n="heroLede">I develop AI-informed stochastic models for uncertain physical, environmental, energy, and financial systems—turning sparse and complex data into interpretable, decision-ready risk insight.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#research">Explore research</a>
-          <a class="button ghost" href="#contact">Get in touch</a>
-          <a class="button ghost" href="https://warwick.ac.uk/fac/sci/eng/people/derek_guotao_ma/" target="_blank" rel="noopener">Warwick Profile</a>
-          <a class="button ghost" href="https://scholar.google.com/citations?hl=en&user=EMWStOgAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-          <a class="button ghost" href="https://uk.linkedin.com/in/guotao-ma" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="button primary" href="#research" data-i18n="exploreResearch">Explore the research</a>
+          <a class="button secondary" href="#contact" data-i18n="startConversation">Start a conversation</a>
         </div>
-        <div class="metrics impact-metrics" aria-label="Selected profile highlights">
-          <div class="impact-metric">
-            <strong>AI + UQ</strong>
-            <span>Random fields, Copula, Risk</span>
-          </div>
-        
-          <div class="impact-metric">
-            <strong class="count-up" data-value="55" data-suffix="+">0</strong>
-            <span>Research outputs</span>
-          </div>
-        
-          <div class="impact-metric">
-            <strong class="count-up" data-value="3" data-suffix="">0</strong>
-            <span>Core research directions</span>
-          </div>
+        <div class="profile-links" aria-label="Academic and professional profiles">
+          <a href="https://warwick.ac.uk/fac/sci/eng/people/derek_guotao_ma/" target="_blank" rel="noopener">Warwick <span>↗</span></a>
+          <a href="https://scholar.google.com/citations?hl=en&amp;user=EMWStOgAAAAJ" target="_blank" rel="noopener">Google Scholar <span>↗</span></a>
+          <a href="https://uk.linkedin.com/in/guotao-ma" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+          <a href="https://github.com/derekma666" target="_blank" rel="noopener">GitHub <span>↗</span></a>
         </div>
       </div>
-      <aside class="hero-card" aria-label="Profile summary">
-        <img class="portrait-photo" src="assets/derek-profile.jpeg" alt="Dr Derek Guotao Ma">
-        <h2>Dr Derek Guotao Ma</h2>
-        <p>Assistant Professor in Engineering<br>School of Engineering, University of Warwick</p>
-        <ul>
-          <li>Stochastic modelling & uncertainty quantification</li>
-          <li>AI-informed multivariate random fields</li>
-          <li>Catastrophe modeling and urban resilience</li>
-          <li>Energy risk pricing models</li>
-        </ul>
-    </section>
 
-    <section class="ticker" aria-label="Research themes">
-      <span>Multivariate Random Fields</span>
-      <span>Hazard Risks</span>
-      <span>Catastrophe Modelling</span>
-      <span>Energy Risk Bonds and Pricing</span>
-    </section>
-
-    <section id="research" class="section-pad split-section">
-      <div>
-        <p class="eyebrow">Research vision</p>
-        <h2>Risk intelligence for uncertain physical and financial systems.</h2>
-      </div>
-      <div class="rich-text">
-        <p>
-          My work connects stochastic mathematics, artificial intelligence, and
-          decision-oriented risk analysis.
-          The central question is simple: 
-          <span class="text-highlight-soft">when data are sparse, noisy, heterogeneous, or shifting over time</span>,
-          how can we still make <span class="text-highlight">reliable predictions</span>
-          and <span class="text-highlight">better decisions</span>?
-        </p>
-        
-        <p>
-          The SRI lab builds models that integrate physical mechanisms,
-          spatial-temporal randomness,
-          machine learning, and
-          interpretable uncertainty measures
-          for engineering, energy, and finance applications.
-        </p>
-    </section>
-
-    
-
-    <section class="cards section-pad compact-top research-image-cards">
-      <article class="card accent-blue">
-        <img class="research-card-image" src="assets/random-field-ai.png" alt="AI-informed random field visualisation">
-        <span class="card-index">01</span>
-        <h3>AI-informed random fields</h3>
-        <p>
-          Learning spatial heterogeneity from sparse observations, measurement data, images, and numerical simulations to model subsurface uncertainty.
-        </p>
-      </article>
-    
-      <article class="card accent-green">
-        <img class="research-card-image" src="assets/catastrophe.png" alt="Catastrophe modelling for geohazards visualisation">
-        <span class="card-index">02</span>
-        <h3>Catastrophe modelling for hazards</h3>
-        <p>
-          Data-and-physics-driven modelling for landslides, debris avalanches, and geohazard risk, with uncertainty propagation and risk prediction.
-        </p>
-      </article>
-    
-      <article class="card accent-gold">
-        <img class="research-card-image" src="assets/energy-finance-risk.png" alt="Energy and financial risk visualisation">
-        <span class="card-index">03</span>
-        <h3>Energy and financial risk</h3>
-        <p>
-          Risk pricing, tail-event modelling, stochastic processes, and AI-assisted decision systems for energy transfer and trading contexts.
-        </p>
-      </article>
-    </section>
-
-    <section id="projects" class="section-pad dark-panel">
-      <div class="section-head">
-        <p class="eyebrow light">Selected project directions</p>
-        <h2>Building risk intelligence across physical, hazard, energy, and financial systems.</h2>
-      </div>
-    
-      <div class="project-grid">
-        <article>
-          <h3>AI-informed uncertainty fields</h3>
-          <p>
-            Generating, updating, and interpreting spatial-temporal uncertainty fields from sparse data, simulations, and images for risk-aware modelling.
-          </p>
-        </article>
-    
-        <article>
-          <h3>Catastrophe and hazard risk assessment</h3>
-          <p>
-            Modelling low-probability, high-consequence events through stochastic simulation, scenario analysis, and uncertainty propagation.
-          </p>
-        </article>
-    
-        <article>
-          <h3>Visual intelligence for risk modelling</h3>
-          <p>
-            Using computer vision, segmentation, and perception models to extract risk-relevant patterns from images, fields, and physical processes.
-          </p>
-        </article>
-    
-        <article>
-          <h3>Energy and financial risk transfer</h3>
-          <p>
-            Developing stochastic pricing, risk transfer, and decision models for energy, climate-related, and financial uncertainty.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section id="teaching" class="section-pad split-section">
-      <div>
-        <p class="eyebrow">Teaching & supervision</p>
-        <h2>Mathematics, engineering judgement, and research-led learning.</h2>
-      </div>
-      <div class="rich-text">
-        <p>
-          I teach Engineering Mathematics and supervise student projects across uncertainty modelling, AI for engineering, risk analysis, applied mathematics, and computational decision-making. My teaching aims to help students move from formula-based learning to model-based reasoning.        </p>
-        <div class="pill-row">
-          <span>Engineering Mathematics</span>
-          <span>Individual Projects</span>
-          <span>Degree Apprenticeships</span>
-          <span>AI for Risk Analysis</span>
+      <aside class="profile-card" id="profile" aria-label="Profile summary">
+        <div class="portrait-wrap">
+          <img src="assets/derek-profile.jpeg" alt="Portrait of Dr Derek G. Ma">
+          <span class="availability" aria-hidden="true"></span>
         </div>
+        <p class="profile-kicker" data-i18n="profileKicker">Research identity</p>
+        <h2 data-i18n="profileName">Dr Derek G. Ma</h2>
+        <p class="profile-role" data-i18n="profileRole">Assistant Professor in Engineering<br>University of Warwick</p>
+        <div class="credential-list" aria-label="Academic appointments">
+          <p><strong data-i18n="credential1Title">Assistant Professor</strong><span data-i18n="credential1Affiliation">University of Warwick, United Kingdom</span></p>
+          <p><strong data-i18n="credential2Title">Visiting Professor</strong><span data-i18n="credential2Affiliation">Fudan University, China</span></p>
+          <p><strong data-i18n="credential3Title">Data Scientist</strong><span data-i18n="credential3Affiliation">Machine Learning</span></p>
+          <p><strong data-i18n="credential4Title">Degree Apprenticeship Tutor</strong><span data-i18n="credential4Affiliation">CEDA Programme</span></p>
+        </div>
+        <div class="profile-tags" aria-label="Research specialisms">
+          <span>AI</span><span data-i18n="tagStochastic">Stochastic modelling</span><span data-i18n="tagRisk">Risk analytics</span>
+        </div>
+        <div class="profile-note">
+          <span class="note-rule" aria-hidden="true"></span>
+          <p data-i18n="profileNote">At the interface of artificial intelligence, uncertainty quantification, and decision science.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="signature-band" aria-label="Research philosophy">
+      <p><span>01</span><strong data-i18n="signature1Title">Model</strong><small data-i18n="signature1Text">randomness as structure</small><em aria-hidden="true">X(s,t,ω)</em></p>
+      <p><span>02</span><strong data-i18n="signature2Title">Interpret</strong><small data-i18n="signature2Text">evidence through inference</small><em aria-hidden="true">p(θ | 𝒟)</em></p>
+      <p><span>03</span><strong data-i18n="signature3Title">Design</strong><small data-i18n="signature3Text">decisions under risk</small><em aria-hidden="true">d* = arg min 𝔼[L]</em></p>
+    </section>
+
+    <section id="research" class="section-pad research-section">
+      <div class="section-intro">
+        <p class="eyebrow" data-i18n="researchEyebrow">Three connected research branches</p>
+        <h2 data-i18n="researchTitle">One mathematical agenda, from <span class="gradient-emphasis">uncertain evidence</span> to <span class="gradient-emphasis">risk-aware design.</span></h2>
+        <p data-i18n="researchIntro">Across <strong class="copy-emphasis">probability, stochastic processes, inverse problems, scientific machine learning, and decision analysis</strong>, the programme asks one question: <span class="marker-highlight">how can mathematical structure turn incomplete evidence into reliable action?</span></p>
+      </div>
+
+      <div class="research-grid">
+        <article class="research-card branch-one">
+          <div class="research-visual">
+            <img src="assets/random-field-ai.png" alt="AI-informed spatial random field visualisation">
+            <span>01</span>
+          </div>
+          <div class="research-content">
+            <p class="branch-label" data-i18n="branch1Label">Stochastic systems</p>
+            <p class="math-notation" aria-hidden="true">X(s,t,ω)</p>
+            <h3 data-i18n="branch1Title">AI-informed random fields &amp; risk assessment</h3>
+            <p data-i18n="branch1Text">Learning spatial and temporal variability from sparse observations, simulations, and prior knowledge—then carrying that uncertainty through to system-level risk.</p>
+            <ul>
+              <li data-i18n="branch1Item1">Multivariate random fields</li>
+              <li data-i18n="branch1Item2">Bayesian learning &amp; copulas</li>
+              <li data-i18n="branch1Item3">Uncertainty propagation</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="research-card branch-two">
+          <div class="research-visual">
+            <img src="assets/catastrophe.png" alt="Visual AI and hazard intelligence visualisation">
+            <span>02</span>
+          </div>
+          <div class="research-content">
+            <p class="branch-label" data-i18n="branch2Label">Visual intelligence</p>
+            <p class="math-notation" aria-hidden="true">p(z | I, 𝓜)</p>
+            <h3 data-i18n="branch2Title">Visual AI &amp; computer vision for geomaterials</h3>
+            <p data-i18n="branch2Text">Extracting risk-relevant structure from images and physical processes, linking perception models with mechanics for explainable hazard intelligence.</p>
+            <ul>
+              <li data-i18n="branch2Item1">Segmentation &amp; representation</li>
+              <li data-i18n="branch2Item2">Physics-informed AI</li>
+              <li data-i18n="branch2Item3">Catastrophe &amp; geohazard risk</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="research-card branch-three">
+          <div class="research-visual">
+            <img src="assets/energy-finance-risk.png" alt="Energy and financial risk visualisation">
+            <span>03</span>
+          </div>
+          <div class="research-content">
+            <p class="branch-label" data-i18n="branch3Label">Decision intelligence</p>
+            <p class="math-notation" aria-hidden="true">d* = arg min 𝔼[L]</p>
+            <h3 data-i18n="branch3Title">Energy risk pricing &amp; decision-making</h3>
+            <p data-i18n="branch3Text">Developing models for pricing, tail events, and risk transfer where market uncertainty, physical exposure, and strategic decisions interact.</p>
+            <ul>
+              <li data-i18n="branch3Item1">Risk pricing &amp; transfer</li>
+              <li data-i18n="branch3Item2">Tail-event modelling</li>
+              <li data-i18n="branch3Item3">AI-assisted decisions</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="impact" class="impact-panel">
+      <div class="impact-copy">
+        <p class="eyebrow light" data-i18n="impactEyebrow">Research in practice</p>
+        <h2 data-i18n="impactTitle"><span class="gradient-emphasis on-dark">Mathematical models</span>, connected to real decisions.</h2>
+        <p data-i18n="impactText">The work spans <strong class="light-emphasis">fundamental methods</strong>, engineering applications, policy-facing risk, and <strong class="light-emphasis">new financial mechanisms for uncertainty</strong>.</p>
+        <a class="text-link" href="https://warwick.ac.uk/fac/sci/eng/people/derek_guotao_ma/" target="_blank" rel="noopener"><span data-i18n="viewFullProfile">View full Warwick profile</span> ↗</a>
+      </div>
+      <div class="impact-grid">
+        <article><span>01</span><h3 data-i18n="impact1Title">Royal Academy of Engineering</h3><p data-i18n="impact1Text">Recognised through the UK Global Talent route.</p></article>
+        <article><span>02</span><h3 data-i18n="impact2Title">Policy advisory</h3><p data-i18n="impact2Text">Contributed to the Welsh Government Coal Tips Safety Taskforce.</p></article>
+        <article><span>03</span><h3 data-i18n="impact3Title">International collaboration</h3><p data-i18n="impact3Text">Corresponding member of ISSMGE Technical Committee 309.</p></article>
+        <article><span>04</span><h3 data-i18n="impact4Title">Research-led teaching</h3><p data-i18n="impact4Text">Engineering Mathematics, applied modelling, and student research supervision.</p></article>
+      </div>
+    </section>
+
+    <section id="teaching" class="section-pad teaching-section">
+      <div class="section-intro compact">
+        <p class="eyebrow" data-i18n="teachingEyebrow">Teaching &amp; supervision</p>
+        <h2 data-i18n="teachingTitle">From formulas to <span class="gradient-emphasis">model-based reasoning.</span></h2>
+        <p data-i18n="teachingText">I teach <strong class="copy-emphasis">engineering mathematics</strong> and supervise projects across <span class="marker-highlight">uncertainty modelling, AI for engineering, risk analysis, and computational decision-making.</span></p>
+      </div>
+      <div class="teaching-list" aria-label="Teaching areas">
+        <span data-i18n="teachingArea1">Engineering Mathematics</span><span data-i18n="teachingArea2">Mathematics Bridging Programme</span><span data-i18n="teachingArea3">Individual Projects</span><span data-i18n="teachingArea4">AI for Risk Analysis</span>
       </div>
     </section>
 
     <section id="people" class="section-pad people-section">
-      <div class="section-head center">
-        <p class="eyebrow">People</p>
-        <h2>Building a small, ambitious, interdisciplinary research group.</h2>
-        <p>
-          We welcome students, visiting scholars, and collaborators interested in stochastic risk intelligence, uncertainty modelling, AI-informed inference, hazard risk assessment, energy risk, and computational finance.
-        </p>
+      <div class="section-intro compact">
+        <p class="eyebrow" data-i18n="peopleEyebrow">People &amp; collaborators</p>
+        <h2 data-i18n="peopleTitle">A focused, interdisciplinary <span class="gradient-emphasis">applied mathematics network.</span></h2>
+        <p data-i18n="peopleText">Students and collaborators connect <strong class="copy-emphasis">stochastic modelling, engineering science, Earth systems, computer vision, and financial risk.</strong></p>
       </div>
-    
+
       <div class="people-grid">
-        <article class="person-card">
-          <img class="person-photo" src="assets/qingyang-zhang-avatar.png" alt="Ms Qingyang Zhang">
-          <h3>Ms Qingyang (Ada) Zhang</h3>
-          <p class="person-title">PhD Student</p>
-          <p class="person-affiliation">University of Warwick</p>
-          <p>Stochastic modelling, geotechnical uncertainty, and random field analysis.</p>
-        </article>
-    
-        <article class="person-card">
-          <img class="person-photo" src="assets/sijie-fu-avatar.png" alt="Mr Sijie Fu">
-          <h3>Mr Sijie (Jose) Fu</h3>
-          <p class="person-title">PhD Student</p>
-          <p class="person-affiliation">University of Warwick</p>
-          <p>Finance, pricing, quantitative risk modelling, and computational finance.</p>
-        </article>
-    
-        <article class="person-card">
-          <img class="person-photo" src="assets/xiao-han-avatar.png" alt="Mr Xiao Han">
-          <h3>Mr Xiaohan Zhang</h3>
-          <p class="person-title">PhD Student</p>
-          <p class="person-affiliation">University of Warwick</p>
-          <p>AI, machine learning, computational vision, and geotechnical image analysis.</p>
-        </article>
-    
-        <article class="person-card">
-          <img class="person-photo" src="assets/honghu-jie-avatar.png" alt="Mr Hujie Hong">
-          <h3>Mr Honghu Jie</h3>
-          <p class="person-title">Visiting PhD Student</p>
-          <p class="person-affiliation">Nanchang University, China</p>
-          <p>Rainfall-induced landslides, neural operators, and physics-informed modelling.</p>
-        </article>
-
-        <article class="person-card">
-          <img class="person-photo" src="assets/ancheng-wang-avatar.png" alt="Mr Ancheng Wang">
-          <h3>Mr Ancheng Wang</h3>
-          <p class="person-title">Research Assistant</p>
-          <p class="person-affiliation">Chinese University of Hongkong, Hong Kong SAR, China</p>
-          <p> Computer vision, segmentation analysis, AI-assisted image processing for
-            geotechnical visual intelligence</p>
-        </article>
-    
-        <article class="person-card">
-          <img class="person-photo" src="assets/xian-liu-avatar.png" alt="Dr Xian Liu">
-          <h3>Dr Xian Liu</h3>
-          <p class="person-title">Previous Visiting Student · Now Marie Curie Fellow</p>
-          <p class="person-affiliation">University of Liverpool</p>
-          <p>GeoAI, stochastic modelling, and uncertainty-aware geotechnical simulation.</p>
-        </article>
-
-        <article class="person-card">
-          <img class="person-photo" src="assets/xian-liu-avatar.png" alt="Dr Xian Liu">
-          <h3>Dr Zixiang (Shawn) Wei</h3>
-          <p class="person-title">Applied AI Research Fellow</p>
-          <p class="person-affiliation">University of Warwick</p>
-          <p>AI, machine learning, computational vision, and image analysis.</p>
-        </article>
-
-        <article class="person-card">
-          <img class="person-photo" src="assets/kunpeng-lu-avatar.png" alt="Dr Kunpeng Lu">
-          <h3>Dr Kunpeng Lu</h3>
-          <p class="person-title">Associate Professor</p>
-          <p class="person-affiliation">Guizhou University, China</p>
-          <p>Visiting scholar and collaborator in geotechnical modelling and risk analysis.</p>
-        </article>
-    
-        <article class="person-card invite join-card">
-          <div class="join-icon" aria-hidden="true">
-            <span class="join-icon-mail">✉</span>
-          </div>
-        
-          <h3>Join the lab</h3>
-          <p class="person-title">Open Opportunities</p>
-          <p class="person-affiliation">Research Assistant, PhD Students · Visiting Scholars · Collaborators</p>
-        
-          <p>
-              I welcome motivated students and collaborators interested in stochastic risk intelligence,
-              AI-informed uncertainty modelling, hazard assessment, and computational risk pricing.
-          </p>
-        
-          <div class="join-actions">
-            <a
-              class="join-button primary"
-              href="mailto:Derek.Ma.1@warwick.ac.uk?subject=Expression%20of%20Interest%20-%20Joining%20Stochastic%20Risk%20Intelligence%20Lab&body=Dear%20Dr%20Ma,%0D%0A%0D%0AI%20am%20interested%20in%20joining%20or%20collaborating%20with%20the%20Stochastic%20Risk%20Intelligence%20Lab.%0D%0A%0D%0AName:%20%0D%0ACurrent%20affiliation:%20%0D%0AInterested%20role:%20PhD%20student%20/%20Visiting%20scholar%20/%20Collaborator%0D%0AResearch%20interests:%20%0D%0ARelevant%20background:%20%0D%0ACV%20or%20website%20link:%20%0D%0A%0D%0ABest%20regards,%0D%0A"
-            >
-              Email Derek
-            </a>
-        
-            <a
-              class="join-button ghost"
-              href="https://forms.gle/YOUR_FORM_LINK_HERE"
-              target="_blank"
-              rel="noopener"
-            >
-              Submit interest form
-            </a>
-          </div>
-        </article>
+        <article class="person-card"><img src="assets/qingyang-zhang-avatar.png" alt="Ms Qingyang Ada Zhang"><h3>Ms Qingyang (Ada) Zhang</h3><p class="person-title" data-i18n="person1Role">PhD Student</p><p class="person-affiliation" data-i18n="person1Affiliation">University of Warwick, United Kingdom</p><p data-i18n="person1Text">Stochastic modelling, geotechnical uncertainty, and random fields.</p></article>
+        <article class="person-card"><img src="assets/sijie-fu-avatar.png" alt="Mr Sijie Jose Fu"><h3>Mr Sijie (Jose) Fu</h3><p class="person-title" data-i18n="person2Role">PhD Student</p><p class="person-affiliation" data-i18n="person2Affiliation">University of Warwick, United Kingdom</p><p data-i18n="person2Text">Quantitative risk, pricing, and computational finance.</p></article>
+        <article class="person-card"><img src="assets/xiao-han-avatar.png" alt="Mr Xiaohan Zhang"><h3>Mr Xiaohan Zhang</h3><p class="person-title" data-i18n="person3Role">PhD Student</p><p class="person-affiliation" data-i18n="person3Affiliation">University of Warwick, United Kingdom</p><p data-i18n="person3Text">Machine learning, computer vision, and geotechnical images.</p></article>
+        <article class="person-card"><img src="assets/honghu-jie-avatar.png" alt="Mr Honghu Jie"><h3>Mr Honghu Jie</h3><p class="person-title" data-i18n="person4Role">Visiting Research Associate</p><p class="person-affiliation" data-i18n="person4Affiliation">Nanchang University, China</p><p data-i18n="person4Text">Landslides, neural operators, and physics-informed modelling.</p></article>
+        <article class="person-card"><img src="assets/ancheng-wang-avatar.png" alt="Mr Ancheng Wang"><h3>Mr Ancheng Wang</h3><p class="person-title" data-i18n="person5Role">Research Assistant</p><p class="person-affiliation" data-i18n="person5Affiliation">The Chinese University of Hong Kong, Hong Kong SAR, China</p><p data-i18n="person5Text">Segmentation and AI-assisted geotechnical visual intelligence.</p></article>
+        <article class="person-card"><img src="assets/xian-liu-avatar.png" alt="Dr Xian Liu"><h3>Dr Xian Liu</h3><p class="person-title" data-i18n="person6Role">Former Visiting Student · Marie Skłodowska-Curie Fellow</p><p class="person-affiliation" data-i18n="person6Affiliation">University of Liverpool, United Kingdom</p><p data-i18n="person6Text">GeoAI, stochastic modelling, and uncertainty-aware simulation.</p></article>
+        <article class="person-card initials-card" aria-label="Dr Zixiang Shawn Wei"><div class="initials" aria-hidden="true">ZW</div><h3>Dr Zixiang (Shawn) Wei</h3><p class="person-title" data-i18n="person7Role">Applied AI Research Fellow</p><p class="person-affiliation" data-i18n="person7Affiliation">University of Warwick, United Kingdom</p><p data-i18n="person7Text">Machine learning, computer vision, and image analysis.</p></article>
+        <article class="person-card"><img src="assets/kunpeng-lu-avatar.png" alt="Dr Kunpeng Lu"><h3>Dr Kunpeng Lu</h3><p class="person-title" data-i18n="person8Role">Associate Professor · Visiting Scholar &amp; Collaborator</p><p class="person-affiliation" data-i18n="person8Affiliation">Guizhou University, China</p><p data-i18n="person8Text">Geotechnical modelling, uncertainty, and risk analysis.</p></article>
+        <article class="person-card initials-card" aria-label="Mr Min Zhong"><div class="initials min-zhong" aria-hidden="true">MZ</div><h3 data-i18n="person9Name">Mr Min Zhong</h3><p class="person-title" data-i18n="person9Role">Visiting Research Associate</p><p class="person-affiliation" data-i18n="person9Affiliation">University of Warwick, United Kingdom</p><p data-i18n="person9Text">Research profile to be added.</p></article>
+        <article class="person-card join-card"><div class="initials join-symbol" aria-hidden="true">+</div><p class="branch-label" data-i18n="joinLabel">Open opportunities</p><h3 data-i18n="joinTitle">Join the lab</h3><p data-i18n="joinText">I welcome thoughtful enquiries from prospective PhD students, visiting scholars, and collaborators whose interests connect with the three research branches.</p><a class="join-button" href="mailto:Derek.Ma.1@warwick.ac.uk?subject=Research%20enquiry%20-%20Stochastic%20Risk%20Intelligence"><span data-i18n="emailDerek">Email Derek</span> →</a></article>
       </div>
     </section>
+
     <section id="contact" class="section-pad contact-section">
       <div class="contact-card">
-        <p class="eyebrow">Contact</p>
-        <h2>Interested in collaboration?</h2>
-        <p>
-          I am open to interdisciplinary collaborations in stochastic risk intelligence, AI-informed uncertainty modelling, catastrophe and hazard risk assessment, energy risk, and computational finance.        </p>
-        <div class="contact-links">
-          <a href="mailto:Derek.Ma.1@warwick.ac.uk">Derek.Ma.1@warwick.ac.uk</a>
-          <a href="https://warwick.ac.uk" target="_blank" rel="noopener">University of Warwick</a>
-          <a href="#top">Back to top ↑</a>
+        <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+        <h2 data-i18n="contactTitle">Let’s turn uncertainty into a useful decision.</h2>
+        <p data-i18n="contactText">For research collaboration, student enquiries, policy work, or interdisciplinary projects, the best place to begin is a short email.</p>
+        <a class="contact-email" href="mailto:Derek.Ma.1@warwick.ac.uk">Derek.Ma.1@warwick.ac.uk <span>↗</span></a>
+        <div class="contact-profiles">
+          <a href="https://warwick.ac.uk/fac/sci/eng/people/derek_guotao_ma/" target="_blank" rel="noopener">Warwick Profile</a><a href="https://scholar.google.com/citations?hl=en&amp;user=EMWStOgAAAAJ" target="_blank" rel="noopener">Google Scholar</a><a href="https://uk.linkedin.com/in/guotao-ma" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/derekma666" target="_blank" rel="noopener">GitHub</a>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> Dr Derek Guotao Ma. Stochastic Risk Intelligence Lab.</p>
-    <p>Designed as a preview landing page.</p>
+    <p>© <span id="year"></span> Dr Derek G. Ma</p>
+    <p data-i18n="footerTagline">Stochastic Risk Intelligence Lab · Model uncertainty. Interpret evidence. Design decisions.</p>
+    <a href="#top" data-i18n="backToTop">Back to top ↑</a>
   </footer>
 
   <script src="script.js"></script>
