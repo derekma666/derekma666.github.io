@@ -307,6 +307,35 @@ translations.ja = {
   backToTop: "ページ上部へ ↑"
 };
 
+// Awarded IAS project; project dates remain planned and no award amount is asserted.
+Object.assign(translations.en, {
+  "projectEyebrow": "Awarded research project",
+  "projectAward": "University of Warwick · Institute of Advanced Study (IAS)<br>Interdisciplinary Research Development Award",
+  "projectPeriod": "Awarded · Planned project period: January–July 2027",
+  "projectTeam": "<strong>PI:</strong> Dr Kaihua Qin<br><strong>Co-I:</strong> Dr Derek Guotao Ma<br><strong>External collaborator:</strong> Prof Jiahua Xu (University College London, UCL)"
+});
+
+Object.assign(translations.zh, {
+  "projectEyebrow": "已获批科研项目",
+  "projectAward": "华威大学 · 高等研究院（IAS）<br>Interdisciplinary Research Development Award（跨学科研究发展资助）",
+  "projectPeriod": "已获批 · 计划执行期：2027年1月至7月",
+  "projectTeam": "<strong>项目负责人（PI）：</strong>Dr Kaihua Qin<br><strong>共同研究者（Co-I）：</strong>Dr Derek Guotao Ma<br><strong>外部合作者：</strong>Prof Jiahua Xu（伦敦大学学院，UCL）"
+});
+
+Object.assign(translations.ko, {
+  "projectEyebrow": "지원이 확정된 연구 프로젝트",
+  "projectAward": "워릭대학교 · 고등연구원(IAS)<br>Interdisciplinary Research Development Award",
+  "projectPeriod": "지원 확정 · 예정 연구 기간: 2027년 1월–7월",
+  "projectTeam": "<strong>연구책임자(PI):</strong> Dr Kaihua Qin<br><strong>공동연구자(Co-I):</strong> Dr Derek Guotao Ma<br><strong>외부 협력자:</strong> Prof Jiahua Xu (University College London, UCL)"
+});
+
+Object.assign(translations.ja, {
+  "projectEyebrow": "採択された研究プロジェクト",
+  "projectAward": "ウォーリック大学 · 高等研究所（IAS）<br>Interdisciplinary Research Development Award",
+  "projectPeriod": "採択済み · 研究期間（予定）：2027年1月–7月",
+  "projectTeam": "<strong>研究代表者（PI）：</strong> Dr Kaihua Qin<br><strong>共同研究者（Co-I）：</strong> Dr Derek Guotao Ma<br><strong>外部共同研究者：</strong> Prof Jiahua Xu（University College London, UCL）"
+});
+
 const year = document.getElementById("year");
 if (year) year.textContent = new Date().getFullYear();
 
@@ -394,3 +423,4 @@ if (reducedMotion || !("IntersectionObserver" in window)) {
 
   revealGroups.forEach(({ root }) => revealObserver.observe(root));
 }
+
