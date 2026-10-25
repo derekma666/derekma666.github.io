@@ -11,8 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20261025-4">
-  <link rel="stylesheet" href="trading.css?v=20261025-3">
+  <link rel="stylesheet" href="styles.css?v=20261025-5">
+  <link rel="stylesheet" href="trading.css?v=20261025-5">
 </head>
 <body class="trading-page">
   <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
@@ -58,6 +58,34 @@
       </div>
     </section>
 
+    <section class="trading-venues" aria-labelledby="trading-venues-title">
+      <div class="venues-intro">
+        <p class="trading-kicker" data-i18n="tradingVenuesEyebrow">VENUE MAP</p>
+        <h2 id="trading-venues-title" data-i18n="tradingVenuesTitle">Where <span>we trade.</span></h2>
+        <p data-i18n="tradingVenuesIntro">Research data, execution plans and future market access.</p>
+      </div>
+      <div class="venue-marquee">
+        <div class="venue-track">
+          <ul class="venue-list">
+            <li><strong>Binance</strong><small data-i18n="tradingVenueBinance">Market data</small></li>
+            <li><strong>OKX</strong><small data-i18n="tradingVenueOkx">Exchange research</small></li>
+            <li><strong>TMGM</strong><small data-i18n="tradingVenueTmgm">Planned CFD execution</small></li>
+            <li><strong>CME Group</strong><small data-i18n="tradingVenueCme">Futures roadmap</small></li>
+          </ul>
+          <ul class="venue-list" aria-hidden="true">
+            <li><strong>Binance</strong><small data-i18n="tradingVenueBinance">Market data</small></li>
+            <li><strong>OKX</strong><small data-i18n="tradingVenueOkx">Exchange research</small></li>
+            <li><strong>TMGM</strong><small data-i18n="tradingVenueTmgm">Planned CFD execution</small></li>
+            <li><strong>CME Group</strong><small data-i18n="tradingVenueCme">Futures roadmap</small></li>
+          </ul>
+        </div>
+      </div>
+      <div class="venues-bottom">
+        <p data-i18n="tradingVenuesNote">Venue names describe research and planned routes; they do not imply exchange partnerships or live execution on every venue.</p>
+        <button class="venue-motion" type="button" aria-pressed="false"><span class="venue-pause" data-i18n="tradingVenuePause">Pause motion</span><span class="venue-resume" data-i18n="tradingVenueResume" hidden>Resume motion</span></button>
+      </div>
+    </section>
+
     <section class="trading-process" aria-labelledby="trading-process-title">
       <div class="process-intro">
         <p class="trading-kicker" data-i18n="tradingMethodEyebrow">The research lens</p>
@@ -69,14 +97,31 @@
         <article class="process-card"><span data-i18n="tradingCard3Kicker">03 / EXECUTION &amp; CONTROL</span><h3 data-i18n="tradingCard3Title">Decisions we can replay.</h3><p data-i18n="tradingCard3Text">Build a trace from research decisions to target positions, execution records, costs and risk checks.</p></article>
       </div>
     </section>
+
+    <section class="trading-join" aria-labelledby="trading-join-title">
+      <div>
+        <p class="trading-kicker" data-i18n="tradingJoinEyebrow">WORK WITH US</p>
+        <h2 id="trading-join-title" data-i18n="tradingJoinTitle">Build the next research layer.</h2>
+        <p data-i18n="tradingJoinText">Interested in systematic markets, stochastic modelling or execution systems? Send a short introduction and a link to relevant work.</p>
+      </div>
+      <a class="trading-apply" href="mailto:Derek.Ma.1@warwick.ac.uk?subject=Auralis%20Tech%20team%20enquiry"><span data-i18n="tradingApply">Apply to join Auralis Tech team</span><span aria-hidden="true">↗</span></a>
+    </section>
   </main>
 
   <footer class="trading-footer">
-    <p data-i18n="tradingStatus">Research &amp; development preview · No performance claims</p>
-    <a href="index.html#top" data-i18n="tradingFooterReturn" data-language-link>Return to main site ↗</a>
+    <div class="trading-footer-main">
+      <div class="trading-footer-brand"><span class="trading-mark" aria-hidden="true">A<span class="trading-mark-slash">/</span></span><strong>听风 × Auralis Tech</strong></div>
+      <nav aria-label="Footer" data-i18n-aria-label="tradingFooterNav">
+        <a href="mailto:Derek.Ma.1@warwick.ac.uk?subject=Auralis%20Tech%20enquiry" data-i18n="tradingFooterContact">Contact</a>
+        <a href="privacy.html" data-i18n="tradingFooterPrivacy" data-language-link>Privacy Policy</a>
+        <a href="index.html#top" data-i18n="tradingFooterReturn" data-language-link>Return to main site ↗</a>
+      </nav>
+    </div>
+    <p class="trading-disclaimer" data-i18n="tradingDisclaimer">This is a research preview for information only. Venue references do not imply exchange partnerships or live trading. This page does not offer trading services, solicit capital or provide investment advice.</p>
+    <div class="trading-footer-bottom"><p data-i18n="tradingStatus">Research &amp; development preview · No performance claims</p><span>© <span id="year"></span> Auralis Tech</span></div>
   </footer>
 
-  <script src="script.js?v=20261025-3"></script>
+  <script src="script.js?v=20261025-5"></script>
   <script src="trading-animation.js?v=20261025-3"></script>
 </body>
 </html>

@@ -457,7 +457,7 @@ Object.assign(translations.ja, {
 });
 
 Object.assign(translations.en, {
-  researchTradingEntry: "Algorithmic trading research",
+  researchTradingEntryLabel: "听风 × Auralis Tech research preview",
   tradingEntry: "听风 × Auralis Tech ↗",
   tradingHomeLabel: "Return to the SRI Lab homepage",
   tradingBrandSub: "Algorithmic trading research",
@@ -476,12 +476,27 @@ Object.assign(translations.en, {
   tradingCard1Kicker: "01 / MARKET STRUCTURE", tradingCard1Title: "Events over clock time.", tradingCard1Text: "Explore how price moves across multiple scales, and when regimes favour reversion or continuation.",
   tradingCard2Kicker: "02 / SYSTEMATIC RESEARCH", tradingCard2Title: "Signals with context.", tradingCard2Text: "Study probabilistic signals across forex, crypto and equity indices, with each market evaluated on its own evidence.",
   tradingCard3Kicker: "03 / EXECUTION & CONTROL", tradingCard3Title: "Decisions we can replay.", tradingCard3Text: "Build a trace from research decisions to target positions, execution records, costs and risk checks.",
+  tradingVenuesEyebrow: "VENUE MAP", tradingVenuesTitle: "Where <span>we trade.</span>", tradingVenuesIntro: "Research data, execution plans and future market access.",
+  tradingVenueBinance: "Market data", tradingVenueOkx: "Exchange research", tradingVenueTmgm: "Planned CFD execution", tradingVenueCme: "Futures roadmap",
+  tradingVenuesNote: "Venue names describe research and planned routes; they do not imply exchange partnerships or live execution on every venue.",
+  tradingVenuePause: "Pause motion", tradingVenueResume: "Resume motion",
+  tradingJoinEyebrow: "WORK WITH US", tradingJoinTitle: "Build the next research layer.", tradingJoinText: "Interested in systematic markets, stochastic modelling or execution systems? Send a short introduction and a link to relevant work.",
+  tradingApply: "Apply to join Auralis Tech team",
+  tradingFooterNav: "Footer", tradingFooterContact: "Contact", tradingFooterPrivacy: "Privacy Policy",
+  tradingDisclaimer: "This is a research preview for information only. Venue references do not imply exchange partnerships or live trading. This page does not offer trading services, solicit capital or provide investment advice.",
   tradingStatus: "Research & development preview · No performance claims",
-  tradingFooterReturn: "Return to main site ↗"
+  tradingFooterReturn: "Return to main site ↗",
+  privacyBackLabel: "Back to Auralis Tech", privacyEyebrow: "WEBSITE PRIVACY", privacyTitle: "Privacy <span>Policy.</span>",
+  privacyIntro: "This notice covers the Auralis Tech research preview and this page, maintained by Dr Derek G. Ma. The main SRI Lab website has separate analytics and is outside this notice.",
+  privacySection1Title: "Page delivery", privacySection1Text: "GitHub Pages serves these static pages, and Google Fonts supplies the typeface. Your browser makes requests to those providers, which may process technical request data under their own policies. These preview pages do not include an on-site analytics script or advertising cookies.",
+  privacySection2Title: "Language choice", privacySection2Text: "If you change language, the site saves the choice as “sri-language” in your browser’s local storage and adds a language code to the page URL. You can remove the saved choice by clearing site data in your browser.",
+  privacySection3Title: "Email enquiries", privacySection3Text: "Contact and Apply links open your email application; there is no application form on this site. If you choose to email, your message and any attachments are handled by your email provider and the recipient’s email service. Please avoid sending confidential account or trading details.",
+  privacySection4Title: "Questions", privacySection4Text: "For questions about this preview or an email you have sent, write to Derek.Ma.1@warwick.ac.uk.",
+  privacyUpdated: "Last updated: 25 October 2026", privacyReturn: "Back to Auralis Tech"
 });
 
 Object.assign(translations.zh, {
-  researchTradingEntry: "算法交易研究",
+  researchTradingEntryLabel: "听风 × Auralis Tech 研究预览",
   tradingEntry: "听风 × Auralis Tech ↗",
   tradingHomeLabel: "返回随机风险智能实验室主页",
   tradingBrandSub: "算法交易研究",
@@ -500,12 +515,27 @@ Object.assign(translations.zh, {
   tradingCard1Kicker: "01 / 市场结构", tradingCard1Title: "以事件观察价格。", tradingCard1Text: "研究不同尺度上的价格变化，以及均值回复与趋势延续各自适用的市场状态。",
   tradingCard2Kicker: "02 / 系统化研究", tradingCard2Title: "让信号有上下文。", tradingCard2Text: "研究外汇、加密资产和股票指数的概率信号，并分别依据各市场的证据评估。",
   tradingCard3Kicker: "03 / 执行与约束", tradingCard3Title: "让决策可以回放。", tradingCard3Text: "建立从研究决策到目标仓位、执行记录、成本与风险检查的可追踪链路。",
+  tradingVenuesEyebrow: "场所地图", tradingVenuesTitle: "我们的<span>交易场所。</span>", tradingVenuesIntro: "研究数据、计划中的执行路径与未来市场接入。",
+  tradingVenueBinance: "市场数据", tradingVenueOkx: "交易所研究", tradingVenueTmgm: "计划中的 CFD 执行", tradingVenueCme: "期货路线图",
+  tradingVenuesNote: "场所名称说明研究和计划路径，不代表与平台存在合作关系，也不表示每个平台已有实盘执行。",
+  tradingVenuePause: "暂停滚动", tradingVenueResume: "继续滚动",
+  tradingJoinEyebrow: "加入研究", tradingJoinTitle: "共建下一层研究能力。", tradingJoinText: "如果你对系统化市场、随机建模或执行系统感兴趣，欢迎发来简短介绍及相关作品链接。",
+  tradingApply: "申请加入 Auralis Tech 团队",
+  tradingFooterNav: "页脚导航", tradingFooterContact: "联系", tradingFooterPrivacy: "隐私政策",
+  tradingDisclaimer: "本页仅供研究展示。场所名称不代表平台合作或已开展实盘交易；本页不提供交易服务、不募集资金，也不构成投资建议。",
   tradingStatus: "研发概念预览 · 不展示业绩主张",
-  tradingFooterReturn: "返回主站 ↗"
+  tradingFooterReturn: "返回主站 ↗",
+  privacyBackLabel: "返回 Auralis Tech", privacyEyebrow: "网站隐私", privacyTitle: "隐私<span>政策。</span>",
+  privacyIntro: "本说明仅适用于由马国涛博士维护的 Auralis Tech 研究预览页及本页。SRI Lab 主站另设访问分析，不属于本说明范围。",
+  privacySection1Title: "页面服务", privacySection1Text: "这些静态页面由 GitHub Pages 提供，字体由 Google Fonts 提供。浏览器会向这些服务发送请求，服务方可能按各自政策处理技术请求数据。预览页未加入站内分析脚本或广告 Cookie。",
+  privacySection2Title: "语言选择", privacySection2Text: "切换语言时，网站会在浏览器本地存储中保存“sri-language”，并在网址加入语言代码。清除浏览器中的本站数据即可移除该偏好。",
+  privacySection3Title: "邮件咨询", privacySection3Text: "“联系”和“申请加入”会打开你的邮件应用；本站没有申请表。如你选择发送邮件，正文及附件由你的邮件服务和收件方邮件服务处理。请勿发送机密账户或交易资料。",
+  privacySection4Title: "问题", privacySection4Text: "如对本预览页或已发送邮件有疑问，请写信至 Derek.Ma.1@warwick.ac.uk。",
+  privacyUpdated: "更新日期：2026 年 10 月 25 日", privacyReturn: "返回 Auralis Tech"
 });
 
 Object.assign(translations.ko, {
-  researchTradingEntry: "알고리즘 트레이딩 연구",
+  researchTradingEntryLabel: "听风 × Auralis Tech 연구 미리보기",
   tradingEntry: "听风 × Auralis Tech ↗",
   tradingHomeLabel: "SRI Lab 홈페이지로 돌아가기",
   tradingBrandSub: "알고리즘 트레이딩 연구",
@@ -524,12 +554,27 @@ Object.assign(translations.ko, {
   tradingCard1Kicker: "01 / 시장 구조", tradingCard1Title: "시계보다 이벤트를 봅니다.", tradingCard1Text: "여러 척도의 가격 변화와 평균회귀·추세 지속에 유리한 시장 국면을 연구합니다.",
   tradingCard2Kicker: "02 / 체계적 연구", tradingCard2Title: "맥락을 갖춘 신호.", tradingCard2Text: "외환, 암호자산, 주가지수의 확률 신호를 연구하고 시장별 근거를 따로 평가합니다.",
   tradingCard3Kicker: "03 / 실행과 통제", tradingCard3Title: "재현 가능한 결정.", tradingCard3Text: "연구 결정부터 목표 포지션, 실행 기록, 비용, 위험 점검까지 추적 가능한 경로를 설계합니다.",
+  tradingVenuesEyebrow: "거래 장소 지도", tradingVenuesTitle: "우리가 <span>거래하는 곳.</span>", tradingVenuesIntro: "연구 데이터, 계획된 실행 경로와 향후 시장 접근입니다.",
+  tradingVenueBinance: "시장 데이터", tradingVenueOkx: "거래소 연구", tradingVenueTmgm: "계획된 CFD 실행", tradingVenueCme: "선물 로드맵",
+  tradingVenuesNote: "장소 이름은 연구와 계획 경로를 나타내며 제휴 관계나 모든 장소에서의 실거래를 뜻하지 않습니다.",
+  tradingVenuePause: "움직임 일시정지", tradingVenueResume: "움직임 다시 시작",
+  tradingJoinEyebrow: "함께 연구하기", tradingJoinTitle: "다음 연구 단계를 함께 만듭니다.", tradingJoinText: "체계적 시장 연구, 확률 모델링 또는 실행 시스템에 관심이 있다면 간단한 소개와 관련 작업 링크를 보내 주세요.",
+  tradingApply: "Auralis Tech 팀 지원하기",
+  tradingFooterNav: "바닥글 탐색", tradingFooterContact: "문의", tradingFooterPrivacy: "개인정보 처리방침",
+  tradingDisclaimer: "이 페이지는 정보 제공을 위한 연구 미리보기입니다. 거래 장소 표기는 제휴 또는 실거래를 뜻하지 않습니다. 거래 서비스를 제공하거나 자금을 모집하거나 투자 조언을 제공하지 않습니다.",
   tradingStatus: "연구개발 미리보기 · 성과 주장 없음",
-  tradingFooterReturn: "메인 사이트로 돌아가기 ↗"
+  tradingFooterReturn: "메인 사이트로 돌아가기 ↗",
+  privacyBackLabel: "Auralis Tech로 돌아가기", privacyEyebrow: "웹사이트 개인정보", privacyTitle: "개인정보 <span>처리방침.</span>",
+  privacyIntro: "이 안내는 Derek G. Ma 박사가 관리하는 Auralis Tech 연구 미리보기와 이 페이지에 적용됩니다. SRI Lab 메인 사이트의 별도 방문 분석은 여기의 범위 밖입니다.",
+  privacySection1Title: "페이지 제공", privacySection1Text: "정적 페이지는 GitHub Pages에서 제공하고 서체는 Google Fonts에서 불러옵니다. 브라우저가 해당 제공자에게 요청을 보내며, 제공자는 자체 정책에 따라 기술적 요청 데이터를 처리할 수 있습니다. 이 미리보기 페이지에는 자체 분석 스크립트나 광고 쿠키가 없습니다.",
+  privacySection2Title: "언어 선택", privacySection2Text: "언어를 바꾸면 사이트가 브라우저 로컬 저장소에 “sri-language”를 저장하고 URL에 언어 코드를 추가합니다. 브라우저에서 사이트 데이터를 지우면 이 설정을 삭제할 수 있습니다.",
+  privacySection3Title: "이메일 문의", privacySection3Text: "문의 및 지원 링크는 이메일 앱을 열며 이 사이트에는 지원 양식이 없습니다. 이메일을 보내면 메시지와 첨부파일은 발신자와 수신자의 이메일 서비스에서 처리됩니다. 기밀 계정 또는 거래 정보를 보내지 마세요.",
+  privacySection4Title: "문의", privacySection4Text: "이 미리보기 또는 보낸 이메일에 관한 문의는 Derek.Ma.1@warwick.ac.uk로 보내 주세요.",
+  privacyUpdated: "최종 업데이트: 2026년 10월 25일", privacyReturn: "Auralis Tech로 돌아가기"
 });
 
 Object.assign(translations.ja, {
-  researchTradingEntry: "アルゴリズム取引の研究",
+  researchTradingEntryLabel: "听风 × Auralis Tech 研究プレビュー",
   tradingEntry: "听风 × Auralis Tech ↗",
   tradingHomeLabel: "SRI Lab のホームページに戻る",
   tradingBrandSub: "アルゴリズム取引の研究",
@@ -548,8 +593,23 @@ Object.assign(translations.ja, {
   tradingCard1Kicker: "01 / 市場構造", tradingCard1Title: "時間よりイベントを捉える。", tradingCard1Text: "複数の尺度での価格変動と、平均回帰やトレンド継続に適した市場状況を研究します。",
   tradingCard2Kicker: "02 / 体系的研究", tradingCard2Title: "文脈を持つシグナル。", tradingCard2Text: "外国為替、暗号資産、株価指数の確率的シグナルを研究し、市場ごとに根拠を評価します。",
   tradingCard3Kicker: "03 / 執行と管理", tradingCard3Title: "再現できる判断。", tradingCard3Text: "研究判断から目標ポジション、執行記録、コスト、リスク確認まで追跡できる流れを構築します。",
+  tradingVenuesEyebrow: "取引先マップ", tradingVenuesTitle: "私たちの<span>取引市場。</span>", tradingVenuesIntro: "研究データ、計画中の執行経路、将来の市場アクセスを示します。",
+  tradingVenueBinance: "市場データ", tradingVenueOkx: "取引所の研究", tradingVenueTmgm: "計画中の CFD 執行", tradingVenueCme: "先物のロードマップ",
+  tradingVenuesNote: "名称は研究と計画中の経路を示すもので、提携関係や全市場での実取引を意味しません。",
+  tradingVenuePause: "動きを一時停止", tradingVenueResume: "動きを再開",
+  tradingJoinEyebrow: "チームと研究", tradingJoinTitle: "次の研究基盤を一緒につくる。", tradingJoinText: "体系的な市場研究、確率モデリング、執行システムに関心があれば、簡単な自己紹介と関連する成果のリンクをお送りください。",
+  tradingApply: "Auralis Tech チームに応募する",
+  tradingFooterNav: "フッターナビゲーション", tradingFooterContact: "お問い合わせ", tradingFooterPrivacy: "プライバシーポリシー",
+  tradingDisclaimer: "本ページは情報提供を目的とする研究プレビューです。市場名は提携や実取引を意味しません。取引サービス、資金募集、投資助言を提供するものではありません。",
   tradingStatus: "研究開発プレビュー · 運用実績の主張なし",
-  tradingFooterReturn: "メインサイトに戻る ↗"
+  tradingFooterReturn: "メインサイトに戻る ↗",
+  privacyBackLabel: "Auralis Tech に戻る", privacyEyebrow: "サイトのプライバシー", privacyTitle: "プライバシー<span>ポリシー。</span>",
+  privacyIntro: "この案内は、Derek G. Ma 博士が管理する Auralis Tech 研究プレビューと本ページを対象とします。SRI Lab のメインサイトには別のアクセス解析があり、この案内の対象外です。",
+  privacySection1Title: "ページの配信", privacySection1Text: "静的ページは GitHub Pages から配信され、書体は Google Fonts から読み込まれます。ブラウザーは各提供元にリクエストを送信し、提供元は独自の方針に従い技術的なリクエストデータを扱う場合があります。プレビューにはサイト内の解析スクリプトや広告 Cookie はありません。",
+  privacySection2Title: "言語の選択", privacySection2Text: "言語を切り替えると、サイトはブラウザーのローカルストレージに “sri-language” を保存し、URL に言語コードを追加します。ブラウザーでサイトデータを削除すると、この設定も削除できます。",
+  privacySection3Title: "メールでのお問い合わせ", privacySection3Text: "お問い合わせと応募のリンクはメールアプリを開きます。このサイトに応募フォームはありません。メールを送る場合、本文と添付ファイルは送信元と受信先のメールサービスで処理されます。機密の口座情報や取引情報は送らないでください。",
+  privacySection4Title: "ご質問", privacySection4Text: "このプレビューや送信済みのメールについては Derek.Ma.1@warwick.ac.uk にお問い合わせください。",
+  privacyUpdated: "最終更新日：2026年10月25日", privacyReturn: "Auralis Tech に戻る"
 });
 
 const year = document.getElementById("year");
@@ -617,6 +677,20 @@ if (linkLanguage && translations[linkLanguage]) initialLanguage = linkLanguage;
 setLanguage(initialLanguage, false);
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const venueMotionButton = document.querySelector(".venue-motion");
+const venueRegion = document.querySelector(".trading-venues");
+if (venueMotionButton && venueRegion) {
+  if (reducedMotion) {
+    venueMotionButton.hidden = true;
+  } else {
+    venueMotionButton.addEventListener("click", () => {
+      const paused = venueRegion.classList.toggle("is-paused");
+      venueMotionButton.setAttribute("aria-pressed", String(paused));
+      venueMotionButton.querySelector(".venue-pause").hidden = paused;
+      venueMotionButton.querySelector(".venue-resume").hidden = !paused;
+    });
+  }
+}
 const revealGroups = [];
 
 const addRevealGroup = (root, items) => {
@@ -642,6 +716,10 @@ addRevealGroup(document.querySelector(".impact-copy"), [...document.querySelecto
 addRevealGroup(document.querySelector(".contact-card"), [...document.querySelectorAll(".contact-card > *")]);
 
 document.querySelectorAll(".signature-band > p, .research-card, .impact-grid article, .teaching-list > span, .teaching-scores, .evidence-metric, .student-quote, .person-card").forEach((item) => {
+  addRevealGroup(item, [item]);
+});
+
+document.querySelectorAll(".trading-venues .venues-intro, .trading-venues .venue-marquee, .trading-process .process-intro, .trading-process .process-grid, .trading-join").forEach((item) => {
   addRevealGroup(item, [item]);
 });
 

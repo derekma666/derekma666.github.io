@@ -83,6 +83,27 @@ html[lang="en"] .diagram-local { display: none; }
 .diagram-motion:hover { border-color: var(--trading-green); }
 .diagram-motion[hidden], .diagram-motion span[hidden] { display: none; }
 
+.trading-venues { overflow: hidden; padding: clamp(3.8rem, 6vw, 6rem) 0; border-top: 1px solid var(--trading-line); background: #0b0f0c; }
+.venues-intro { max-width: 1500px; margin: 0 auto; padding: 0 clamp(1.25rem, 5vw, 5.5rem); }
+.venues-intro .trading-kicker { margin-bottom: 1rem; }
+.venues-intro h2 { font-size: clamp(2.3rem, 4.2vw, 4.5rem); line-height: 1.05; }
+.venues-intro h2 span { color: var(--trading-green); }
+.venues-intro > p:last-child { margin: 1rem 0 0; color: var(--trading-muted); font-size: 0.9rem; }
+.venue-marquee { margin-top: clamp(2.1rem, 4vw, 4rem); overflow: hidden; mask-image: linear-gradient(90deg, transparent, black 7%, black 93%, transparent); }
+.venue-track { display: flex; width: max-content; animation: venue-drift 28s linear infinite; }
+.venue-list { display: flex; flex: 0 0 auto; margin: 0; padding: 0; list-style: none; }
+.venue-list li { display: flex; flex: 0 0 max(190px, 25vw); flex-direction: column; justify-content: center; gap: 0.25rem; min-height: 6rem; padding: 0.75rem clamp(1.4rem, 3vw, 2.8rem); border-left: 1px solid var(--trading-line); }
+.venue-list strong { color: #d5ddd7; font-size: clamp(1.45rem, 2.2vw, 2.1rem); font-weight: 600; letter-spacing: -0.055em; white-space: nowrap; }
+.venue-list small { color: var(--trading-muted); font-size: 0.69rem; letter-spacing: 0.04em; }
+.trading-venues.is-paused .venue-track { animation-play-state: paused; }
+@media (hover: hover) { .venue-marquee:hover .venue-track { animation-play-state: paused; } }
+@keyframes venue-drift { to { transform: translateX(-50%); } }
+.venues-bottom { display: flex; align-items: center; justify-content: space-between; gap: 1rem; max-width: 1500px; margin: 1.7rem auto 0; padding: 0 clamp(1.25rem, 5vw, 5.5rem); }
+.venues-bottom p { max-width: 670px; margin: 0; color: #89968c; font-size: 0.72rem; line-height: 1.5; }
+.venue-motion { flex: 0 0 auto; padding: 0.5rem 0.7rem; border: 1px solid var(--trading-line); color: var(--trading-green); background: transparent; font: inherit; font-size: 0.68rem; cursor: pointer; }
+.venue-motion:hover { border-color: var(--trading-green); }
+.venue-motion span[hidden] { display: none; }
+
 .trading-process { max-width: 1500px; margin: 0 auto; padding: clamp(3.8rem, 6vw, 6rem) clamp(1.25rem, 5vw, 5.5rem) clamp(5rem, 8vw, 8rem); border-top: 1px solid var(--trading-line); }
 .process-intro { display: grid; grid-template-columns: minmax(0, 0.7fr) minmax(0, 1.3fr); align-items: start; gap: 2rem; }
 .process-intro .trading-kicker { margin: 0.5rem 0 0; }
@@ -94,10 +115,38 @@ html[lang="en"] .diagram-local { display: none; }
 .process-card > span { color: var(--trading-green); font-size: 0.62rem; font-weight: 700; letter-spacing: 0.14em; }
 .process-card h3 { margin-top: 2.3rem; font-size: clamp(1.55rem, 2.2vw, 2.1rem); line-height: 1.1; }
 .process-card p { max-width: 340px; margin: 1rem 0 0; color: #b6c0b8; font-size: 0.88rem; line-height: 1.6; }
-.trading-footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.5rem clamp(1.25rem, 5vw, 5.5rem); border-top: 1px solid var(--trading-line); color: var(--trading-muted); font-size: 0.71rem; letter-spacing: 0.04em; }
-.trading-footer p { margin: 0; }
-.trading-footer a { color: var(--trading-green); }
-.trading-footer a:hover { color: var(--trading-white); }
+.trading-join { display: flex; align-items: end; justify-content: space-between; gap: 2rem; max-width: 1500px; margin: 0 auto; padding: clamp(3.5rem, 6vw, 6rem) clamp(1.25rem, 5vw, 5.5rem); border-top: 1px solid var(--trading-line); }
+.trading-join .trading-kicker { margin-bottom: 1rem; }
+.trading-join h2 { max-width: 650px; font-size: clamp(2.4rem, 4vw, 4.4rem); line-height: 1.07; }
+.trading-join p:last-child { max-width: 590px; margin: 1.2rem 0 0; color: var(--trading-muted); font-size: 0.93rem; }
+.trading-apply { display: inline-flex; align-items: center; justify-content: space-between; gap: 2.5rem; min-height: 3.5rem; padding: 0.9rem 1.15rem; color: var(--trading-ink); background: var(--trading-green); font-size: 0.85rem; font-weight: 700; white-space: nowrap; transition: background 160ms ease, transform 160ms ease; }
+.trading-apply:hover { color: var(--trading-ink); background: #85ff9b; transform: translateY(-2px); }
+.trading-apply span:last-child { font-size: 1.2rem; font-weight: 400; }
+.trading-footer { padding: 2.5rem clamp(1.25rem, 5vw, 5.5rem) 1.5rem; border-top: 1px solid var(--trading-line); color: var(--trading-muted); font-size: 0.72rem; letter-spacing: 0.02em; }
+.trading-footer-main, .trading-footer-bottom { display: flex; align-items: center; justify-content: space-between; gap: 1rem; max-width: 1320px; margin: 0 auto; }
+.trading-footer-brand { display: inline-flex; align-items: center; gap: 0.8rem; color: var(--trading-white); }
+.trading-footer-brand .trading-mark { font-size: 1.5rem; }
+.trading-footer-brand strong { font-size: 0.85rem; font-weight: 600; }
+.trading-footer nav { display: flex; flex-wrap: wrap; gap: 0.7rem 1.5rem; }
+.trading-footer a { color: var(--trading-white); }
+.trading-footer a:hover { color: var(--trading-green); }
+.trading-disclaimer { max-width: 1320px; margin: 3rem auto 2.2rem; color: #89968c; font-size: 0.7rem; line-height: 1.6; }
+.trading-footer-bottom { padding-top: 1.2rem; border-top: 1px solid var(--trading-line); }
+.trading-footer-bottom p { margin: 0; }
+
+.privacy-main { max-width: 980px; margin: 0 auto; padding: clamp(3.5rem, 7vw, 6.5rem) clamp(1.25rem, 5vw, 5.5rem) 6rem; }
+.privacy-main h1 { font-size: clamp(3rem, 6vw, 5.2rem); line-height: 1; }
+.privacy-main h1 span { color: var(--trading-green); }
+.privacy-lede { max-width: 780px; margin: 1.8rem 0 0; color: #c8d1ca; font-size: 1.02rem; line-height: 1.65; }
+.privacy-sections { margin-top: 3.5rem; border-top: 1px solid var(--trading-line); }
+.privacy-sections section { display: grid; grid-template-columns: minmax(150px, 0.55fr) minmax(0, 1.45fr); gap: 2rem; padding: 1.65rem 0; border-bottom: 1px solid var(--trading-line); }
+.privacy-sections h2 { font-size: 1.3rem; letter-spacing: -0.03em; }
+.privacy-sections p { margin: 0; color: var(--trading-muted); font-size: 0.9rem; line-height: 1.7; }
+.privacy-updated { margin: 1.7rem 0 0; color: var(--trading-muted); font-size: 0.72rem; }
+.privacy-main .trading-return { margin-top: 1.7rem; }
+
+.trading-page .scroll-reveal { opacity: 0; filter: none; transform: translateY(26px); transition: opacity 650ms ease, transform 650ms cubic-bezier(0.22, 1, 0.36, 1); }
+.trading-page .scroll-reveal.is-visible { opacity: 1; transform: none; }
 
 @media (max-width: 680px) {
   .trading-header { flex-direction: column; align-items: flex-start; gap: 1rem; min-height: 0; padding-block: 1rem; }
@@ -125,11 +174,25 @@ html[lang="en"] .diagram-local { display: none; }
   .process-card { min-height: 0; padding: 1.5rem 0 1.8rem; }
   .process-card + .process-card { border-top: 1px solid var(--trading-line); border-left: 0; }
   .process-card h3 { margin-top: 1.4rem; }
-  .trading-footer { flex-direction: column; align-items: flex-start; }
+  .venues-bottom { align-items: flex-start; flex-direction: column; }
+  .trading-join { align-items: flex-start; flex-direction: column; }
+  .trading-apply { width: 100%; white-space: normal; }
+  .trading-footer-main, .trading-footer-bottom { align-items: flex-start; flex-direction: column; }
+  .trading-footer nav { margin-top: 1.3rem; }
+  .trading-disclaimer { margin-block: 2.5rem 1.8rem; }
+  .privacy-sections section { grid-template-columns: 1fr; gap: 0.6rem; }
 }
 
 @media (max-width: 370px) {
   .trading-page .language-switcher button { padding-inline: 0.38rem; }
   .diagram-label b { font-size: 0.52rem; }
   .diagram-center { font-size: 0.5rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .venue-marquee { mask-image: none; }
+  .venue-track { display: block; width: auto; animation: none; }
+  .venue-list { flex-wrap: wrap; }
+  .venue-list[aria-hidden="true"], .venue-motion { display: none; }
+  .trading-page .scroll-reveal { opacity: 1; transform: none; transition: none; }
 }
