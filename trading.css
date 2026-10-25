@@ -56,7 +56,7 @@
 .trading-copy h1 { max-width: 710px; font-size: clamp(2.8rem, 4.5vw, 4.65rem); line-height: 1.06; }
 .trading-copy h1 span { color: var(--trading-green); }
 .trading-lede { max-width: 610px; margin: 2rem 0 0; color: #d7ddd8; font-size: clamp(1rem, 1.25vw, 1.15rem); line-height: 1.5; }
-.trading-markets { display: flex; flex-wrap: wrap; gap: 0.25rem 0.8rem; margin: 2rem 0 0; color: var(--trading-muted); font-size: 0.73rem; letter-spacing: 0.03em; }
+.trading-markets { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: start; gap: 0.8rem; margin: 2rem 0 0; color: var(--trading-muted); font-size: 0.73rem; letter-spacing: 0.03em; }
 .trading-markets strong { color: var(--trading-white); font-weight: 500; }
 .trading-return { display: inline-flex; align-items: center; gap: 0.6rem; margin-top: 2.5rem; padding: 0.8rem 1rem; border: 1px solid var(--trading-line); color: var(--trading-green); background: var(--trading-panel); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em; transition: color 150ms ease, background 150ms ease, border-color 150ms ease; }
 .trading-return:hover { border-color: var(--trading-green); color: var(--trading-ink); background: var(--trading-green); }
@@ -112,6 +112,7 @@ html[lang="en"] .diagram-local { display: none; }
   .trading-copy h1 { font-size: clamp(2.55rem, 9vw, 3.5rem); }
   .trading-lede { margin-top: 1.4rem; }
   .trading-markets { margin-top: 1.5rem; }
+  .trading-markets strong { text-align: right; }
   .trading-return { margin-top: 1.8rem; }
   .trading-diagram { justify-self: center; max-width: 500px; aspect-ratio: auto; }
   .diagram-art { position: relative; aspect-ratio: 620 / 560; }

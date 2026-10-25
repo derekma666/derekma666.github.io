@@ -281,6 +281,15 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 .research-content li { padding: 0.38rem 0.6rem; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: 0.75rem; }
 .branch-two .branch-label { color: var(--blue); }
 .branch-three .branch-label { color: var(--gold); }
+.research-trading-entry { display: grid; grid-template-columns: 2.3rem minmax(0, 1fr) auto; align-items: center; gap: 0.75rem; min-height: 3.7rem; margin-top: 1.2rem; padding: 0.55rem 0.7rem; border: 1px solid #263a2c; border-radius: 0.9rem; color: #f7faf7; background: #0b100d; transition: border-color 160ms ease, transform 160ms ease; }
+.research-trading-entry:hover { border-color: #00f554; transform: translateY(-2px); }
+.research-trading-entry:focus-visible { outline: 3px solid rgba(0, 245, 84, 0.35); outline-offset: 3px; }
+.research-trading-mark { display: flex; align-items: center; justify-content: center; width: 2.3rem; height: 2.3rem; border: 1px solid rgba(0, 245, 84, 0.34); color: #00f554; font-family: "DM Sans", sans-serif; font-size: 1.25rem; font-weight: 600; letter-spacing: -0.12em; line-height: 1; }
+.research-trading-mark span { font-size: 0.78em; font-weight: 400; }
+.research-trading-copy { display: flex; flex-direction: column; min-width: 0; line-height: 1.25; }
+.research-trading-copy strong { overflow-wrap: anywhere; font-size: 0.78rem; letter-spacing: 0.02em; }
+.research-trading-copy small { margin-top: 0.18rem; color: #a4aea7; font-size: 0.69rem; }
+.research-trading-arrow { align-self: start; color: #00f554; font-size: 1rem; }
 
 .projects-section { padding-top: clamp(3rem, 6vw, 6rem); border-top: 1px solid var(--line); }
 .projects-section .section-intro { max-width: none; grid-template-columns: minmax(0, 1.25fr) minmax(250px, 0.75fr); align-items: end; margin-bottom: clamp(1.5rem, 3vw, 2.5rem); }
@@ -430,30 +439,50 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 }
 
 @media (max-width: 720px) {
-  .site-header { padding: 0.7rem 1rem; }
+  .site-header { position: relative; padding: 0.55rem 1rem; }
   .brand-copy small { font-size: 0; }
   .brand-copy small::after { content: "SRI Lab"; font-size: 0.7rem; }
   .language-switcher { gap: 0.08rem; padding: 0.16rem; }
   .language-switcher button { min-width: 1.9rem; padding: 0.38rem 0.4rem; font-size: 0.66rem; }
-  .nav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.2rem 0.35rem; padding-top: 0.45rem; text-align: center; font-size: 0.76rem; }
-  .nav a { padding: 0.12rem 0; }
-  #top, #profile, #research, #projects, #impact, #people, #contact, #ias-defi-project { scroll-margin-top: 10rem; }
-  .section-pad { padding-inline: 1.1rem; }
-  .hero { padding-top: 4.5rem; padding-bottom: 3rem; }
-  h1 { font-size: clamp(3rem, 14vw, 4.3rem); }
+  .nav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.1rem 0.35rem; padding-top: 0.3rem; text-align: center; font-size: 0.76rem; }
+  .nav a { display: grid; place-items: center; min-height: 2rem; padding: 0.2rem 0; }
+  #top, #profile, #research, #projects, #impact, #people, #contact, #ias-defi-project { scroll-margin-top: 1.25rem; }
+  .section-pad { padding: 3rem 1.1rem; }
+  .hero { gap: 2rem; padding-top: 2.4rem; padding-bottom: 2.5rem; }
+  h1 { font-size: clamp(2.6rem, 10.5vw, 3.2rem); line-height: 1.05; }
+  .hero h1 br { display: none; }
+  .hero-tagline { margin-top: 1rem; font-size: 1.02rem; }
+  .hero-lede { margin-top: 0.65rem; font-size: 0.96rem; line-height: 1.55; }
+  .hero-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.55rem; margin-top: 1.3rem; }
+  .hero-actions .button { padding: 0.72rem 0.5rem; font-size: 0.8rem; text-align: center; }
+  .profile-links { margin-top: 1.2rem; font-size: 0.78rem; }
+  .profile-card { padding: 1.3rem; border-radius: 1.5rem; }
+  .portrait-wrap { width: 6.5rem; margin-bottom: 1rem; }
+  .portrait-wrap img { width: 6.5rem; height: 6.5rem; }
+  h2 { font-size: clamp(2.1rem, 9vw, 2.5rem); line-height: 1.07; }
   .gradient-text { display: inline; }
   .credential-list p { grid-template-columns: 1fr; gap: 0.1rem; }
   .signature-band { grid-template-columns: 1fr; padding-inline: 1rem; }
   .signature-band p, .signature-band p:first-child { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); border-left: 1px solid var(--line); }
   .signature-band p:last-child { border-bottom: 0; }
+  .signature-band p { padding-block: 0.9rem; }
   .section-intro { display: block; }
-  .section-intro h2 { margin-bottom: 1rem; }
-  .section-intro .eyebrow { margin-bottom: 1rem; }
-  .section-intro > p:last-child { margin-top: 1rem; }
+  .section-intro h2 { margin-bottom: 0.75rem; }
+  .section-intro .eyebrow { margin-bottom: 0.7rem; }
+  .section-intro > p:last-child { margin-top: 0.75rem; font-size: 0.95rem; line-height: 1.55; }
+  .research-section .section-intro h2, .projects-section .section-intro h2 { font-size: clamp(2.1rem, 9vw, 2.5rem); }
+  .research-section .section-intro { margin-bottom: 1.5rem; }
   .projects-grid { grid-template-columns: 1fr; }
   .projects-section .section-intro { margin-bottom: 1.5rem; }
+  .project-card { padding: 1.2rem; border-radius: 1.25rem; }
+  .project-card h3 { font-size: 1.48rem; }
   .research-card { display: block; }
-  .research-visual { height: 13rem; min-height: 0; }
+  .research-visual { height: 10.5rem; min-height: 0; }
+  .research-content { padding: 1.2rem; }
+  .research-content h3 { min-height: 0; }
+  .research-content > p:not(.branch-label):not(.math-notation) { margin: 0.6rem 0 0; }
+  .research-content ul { margin-top: 0.85rem; }
+  .research-trading-entry { margin-top: 1rem; }
   .impact-panel { margin-inline: 0.55rem; padding: 2rem 1.2rem; border-radius: 1.7rem; }
   .impact-grid { grid-template-columns: 1fr; }
   .teaching-section { grid-template-columns: 1fr; }
@@ -468,14 +497,20 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
   .survey-table td strong { font-size: 1.35rem; }
   .survey-table td span { font-size: 0.65rem; }
   .student-voices-grid { grid-template-columns: 1fr; }
+  .student-quote { gap: 0.9rem; padding: 1.2rem; }
   .people-grid { grid-template-columns: 1fr; }
-  .person-card { text-align: center; }
-  .person-card img, .initials { margin-inline: auto; }
-  .join-card { display: flex; grid-column: auto; min-height: 360px; padding: 1.55rem; text-align: center; }
-  .join-card .initials { margin-inline: auto; }
-  .join-card .branch-label { margin-bottom: 0.7rem; }
-  .join-card > p:not(.branch-label) { margin-top: 0.7rem; }
-  .join-button { margin-top: auto; }
+  .person-card:not(.join-card) { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); grid-template-rows: auto auto auto auto; column-gap: 0.9rem; align-items: start; min-height: 0; padding: 1rem; border-radius: 1.25rem; text-align: left; }
+  .person-card:not(.join-card) img, .person-card:not(.join-card) .initials { grid-column: 1; grid-row: 1 / 4; width: 4.5rem; height: 4.5rem; margin: 0; border-radius: 1rem; font-size: 1.2rem; }
+  .person-card:not(.join-card) h3 { grid-column: 2; grid-row: 1; font-size: 1.04rem; }
+  .person-card:not(.join-card) .person-title { grid-column: 2; grid-row: 2; margin-top: 0.2rem; }
+  .person-card:not(.join-card) .person-affiliation { grid-column: 2; grid-row: 3; min-height: 0; margin: 0.15rem 0 0; font-size: 0.73rem; }
+  .person-card:not(.join-card) > p:last-child { grid-column: 1 / -1; grid-row: 4; width: 100%; margin-top: 0.85rem; padding-top: 0.75rem; border-top: 1px solid var(--line); font-size: 0.82rem; }
+  .join-card { display: grid; grid-column: auto; grid-template-columns: 3.6rem minmax(0, 1fr); grid-template-areas: "icon label" "icon title" "text text" "action action"; gap: 0.2rem 0.9rem; min-height: 0; padding: 1.25rem; text-align: left; }
+  .join-card .initials { width: 3.6rem; height: 3.6rem; margin: 0; border-radius: 1rem; font-size: 1.7rem; }
+  .join-card .branch-label { margin: 0; }
+  .join-card > p:not(.branch-label) { margin-top: 0.8rem; font-size: 0.9rem; }
+  .join-button { justify-self: start; margin-top: 0.8rem; }
+  .scroll-reveal { opacity: 1; filter: none; transform: none; transition: none; }
   .site-footer { grid-template-columns: 1fr; text-align: center; }
   .site-footer a { justify-self: center; }
 }
@@ -499,6 +534,7 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 
 @media (max-width: 360px) {
   .brand-copy { display: none; }
+  .hero-actions { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {

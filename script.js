@@ -67,10 +67,10 @@ const translations = {
     teachingQuote3Source: "Anonymous student feedback · ES1A8 · 2024/25",
     peopleEyebrow: "People & collaborators", peopleTitle: "A focused, interdisciplinary <span class=\"gradient-emphasis\">applied mathematics network.</span>",
     peopleText: "Students and collaborators connect <strong class=\"copy-emphasis\">stochastic modelling, engineering science, Earth systems, computer vision, and financial risk.</strong>",
-    person1Role: "PhD Student", person1Affiliation: "University of Warwick, United Kingdom", person1Text: "Conditional neural processes and ACF-constrained random-field reconstruction from sparse observations.",
+    person1Role: "PhD Researcher", person1Affiliation: "University of Warwick, United Kingdom", person1Text: "Conditional neural processes and ACF-constrained random-field reconstruction from sparse observations.",
     person2Role: "PhD Researcher", person2Affiliation: "University of Warwick, United Kingdom", person2Text: "Brownian motion and non-stationary stochastic processes for multiscale modelling and extreme-event risk.",
-    person10Role: "PhD Researcher", person10Text: "Brownian motion and stochastic modelling for probabilistic forecasting and risk-aware sequential decisions.",
-    person3Role: "PhD Student", person3Affiliation: "University of Warwick, United Kingdom", person3Text: "Exploring image-based models for porous-media flow and particle transport.",
+    person10Role: "PhD Researcher", person10Affiliation: "University of Warwick, United Kingdom", person10Text: "Brownian motion and stochastic modelling for probabilistic forecasting and risk-aware sequential decisions.",
+    person3Role: "PhD Researcher", person3Affiliation: "University of Warwick, United Kingdom", person3Text: "Exploring image-based models for porous-media flow and particle transport.",
     person4Role: "Visiting Research Associate", person4Affiliation: "Nanchang University, China", person4Text: "Diffusion models and physics-informed neural operators for rainfall-induced slope responses.",
     person5Role: "Research Assistant", person5Affiliation: "The Chinese University of Hong Kong, Hong Kong SAR, China", person5Text: "Image segmentation and engineering AI, with nuclear-graphite applications under exploration.",
     person6Role: "Former Visiting Student · Marie Skłodowska-Curie Fellow", person6Affiliation: "University of Liverpool, United Kingdom", person6Text: "GeoAI, stochastic modelling, and uncertainty-aware simulation for spatially variable ground conditions and data-informed geotechnical analysis.",
@@ -80,7 +80,7 @@ const translations = {
     joinLabel: "Open opportunities", joinTitle: "Join the lab",
     joinText: "I welcome thoughtful enquiries from prospective PhD students, visiting scholars, and collaborators whose interests connect with the three research branches.",
     emailDerek: "Email Derek",
-    contactEyebrow: "Contact", contactTitle: "Let’s turn uncertainty into a useful decision.",
+    contactEyebrow: "Contact", contactTitle: "Let’s turn uncertainty into a <span class=\"gradient-emphasis\">useful decision.</span>",
     contactText: "For research collaboration, student enquiries, policy work, or interdisciplinary projects, the best place to begin is a short email.",
     footerTagline: "Stochastic Risk Intelligence Lab · Model uncertainty. Interpret evidence. Design decisions.",
     backToTop: "Back to top ↑"
@@ -153,10 +153,10 @@ const translations = {
     teachingQuote3Source: "匿名学生反馈（译）· ES1A8 · 2024/25",
     peopleEyebrow: "学生与合作者", peopleTitle: "一个专注而交叉的<span class=\"gradient-emphasis\">应用数学研究网络。</span>",
     peopleText: "学生与合作者共同连接<strong class=\"copy-emphasis\">随机建模、工程科学、地球系统、计算机视觉与金融风险。</strong>",
-    person1Role: "博士研究生", person1Affiliation: "英国华威大学", person1Text: "基于条件神经过程与自相关函数约束，从稀疏观测重构随机场。",
+    person1Role: "博士研究人员", person1Affiliation: "英国华威大学", person1Text: "基于条件神经过程与自相关函数约束，从稀疏观测重构随机场。",
     person2Role: "博士研究人员", person2Affiliation: "英国华威大学", person2Text: "研究布朗运动与非平稳随机过程，用于多尺度建模和极端事件风险分析。",
-    person10Role: "博士研究人员", person10Text: "研究布朗运动与随机建模，用于概率预测和风险感知序贯决策。",
-    person3Role: "博士研究生", person3Affiliation: "英国华威大学", person3Text: "探索用于多孔介质流动与颗粒迁移的图像模型。",
+    person10Role: "博士研究人员", person10Affiliation: "英国华威大学", person10Text: "研究布朗运动与随机建模，用于概率预测和风险感知序贯决策。",
+    person3Role: "博士研究人员", person3Affiliation: "英国华威大学", person3Text: "探索用于多孔介质流动与颗粒迁移的图像模型。",
     person4Role: "访问研究助理", person4Affiliation: "中国南昌大学", person4Text: "扩散模型与物理信息神经算子，用于降雨诱发边坡响应。",
     person5Role: "研究助理", person5Affiliation: "中国香港特别行政区 · 香港中文大学", person5Text: "图像分割与工程 AI，并探索核石墨应用。",
     person6Role: "曾任访问学生 · 玛丽·斯克沃多夫斯卡-居里学者", person6Affiliation: "英国利物浦大学", person6Text: "GeoAI、随机建模与不确定性感知模拟，研究空间变异地层与数据驱动岩土分析。",
@@ -166,7 +166,7 @@ const translations = {
     joinLabel: "开放机会", joinTitle: "加入团队",
     joinText: "欢迎研究兴趣与三条主线相关的博士申请者、访问学者与合作者发送简洁而有针对性的咨询。",
     emailDerek: "邮件联系 Derek",
-    contactEyebrow: "联系", contactTitle: "让不确定性成为可用的决策依据。",
+    contactEyebrow: "联系", contactTitle: "让不确定性成为<span class=\"gradient-emphasis\">可用的决策依据。</span>",
     contactText: "如需讨论科研合作、学生指导、政策工作或交叉学科项目，请从一封简短的邮件开始。",
     footerTagline: "随机风险智能实验室 · 刻画不确定性。解读证据。设计决策。",
     backToTop: "返回顶部 ↑"
@@ -243,7 +243,7 @@ translations.ko = {
   peopleText: "학생과 협력 연구자들은 <strong class=\"copy-emphasis\">확률 모델링, 공학과학, 지구 시스템, 컴퓨터 비전, 금융 리스크</strong>를 연결합니다.",
   person1Role: "박사과정 연구원", person1Affiliation: "워릭대학교, 영국", person1Text: "희소 관측으로부터 조건부 신경과정과 자기상관함수 제약을 이용한 랜덤 필드 재구성.",
   person2Role: "박사과정 연구원", person2Affiliation: "워릭대학교, 영국", person2Text: "브라운 운동과 비정상 확률과정을 바탕으로 다중 규모 모델링과 극한 사건 리스크를 연구합니다.",
-  person10Role: "박사과정 연구원", person10Text: "브라운 운동과 확률 모델링을 바탕으로 확률적 예측과 리스크 인지 순차 의사결정을 연구합니다.",
+  person10Role: "박사과정 연구원", person10Affiliation: "워릭대학교, 영국", person10Text: "브라운 운동과 확률 모델링을 바탕으로 확률적 예측과 리스크 인지 순차 의사결정을 연구합니다.",
   person3Role: "박사과정 연구원", person3Affiliation: "워릭대학교, 영국", person3Text: "다공성 매질 유동과 입자 이동을 위한 영상 기반 모델 탐색.",
   person4Role: "방문연구원", person4Affiliation: "난창대학교, 중국", person4Text: "강우 유발 사면 반응을 위한 확산 모델과 물리정보 신경 연산자.",
   person5Role: "연구조교", person5Affiliation: "홍콩중문대학교, 중국 홍콩 특별행정구", person5Text: "영상 분할과 공학 AI, 핵흑연 적용 가능성 탐색.",
@@ -254,7 +254,7 @@ translations.ko = {
   joinLabel: "열린 기회", joinTitle: "연구실에 합류하기",
   joinText: "세 가지 연구 축과 관심이 맞닿아 있는 박사과정 지원자, 방문학자, 협력 연구자의 구체적인 문의를 환영합니다.",
   emailDerek: "Derek에게 이메일 보내기",
-  contactEyebrow: "연락처", contactTitle: "불확실성을 유용한 의사결정으로 바꿉시다.",
+  contactEyebrow: "연락처", contactTitle: "불확실성을 <span class=\"gradient-emphasis\">유용한 의사결정</span>으로 바꿉시다.",
   contactText: "연구 협력, 학생 지도, 정책 연구 또는 학제간 프로젝트에 관해 논의하려면 간단한 이메일로 시작해 주세요.",
   footerTagline: "확률적 리스크 인텔리전스 연구실 · 불확실성을 모델링하고, 증거를 해석하며, 의사결정을 설계합니다.",
   backToTop: "맨 위로 ↑"
@@ -328,10 +328,10 @@ translations.ja = {
   teachingQuote3Source: "匿名の学生コメント（翻訳）· ES1A8 · 2024/25",
   peopleEyebrow: "学生・共同研究者", peopleTitle: "焦点の明確な学際的<span class=\"gradient-emphasis\">応用数学ネットワーク。</span>",
   peopleText: "学生と共同研究者が<strong class=\"copy-emphasis\">確率モデリング、工学科学、地球システム、コンピュータビジョン、金融リスク</strong>を結び付けます。",
-  person1Role: "博士課程学生", person1Affiliation: "ウォーリック大学、英国", person1Text: "疎な観測から、条件付きニューラルプロセスと自己相関関数の制約を用いてランダム場を再構成。",
+  person1Role: "博士課程研究者", person1Affiliation: "ウォーリック大学、英国", person1Text: "疎な観測から、条件付きニューラルプロセスと自己相関関数の制約を用いてランダム場を再構成。",
   person2Role: "博士課程研究者", person2Affiliation: "ウォーリック大学、英国", person2Text: "ブラウン運動と非定常確率過程を用いたマルチスケールモデリングと極端事象のリスクを研究。",
-  person10Role: "博士課程研究者", person10Text: "ブラウン運動と確率モデリングを用いた確率予測とリスクを考慮した逐次意思決定を研究。",
-  person3Role: "博士課程学生", person3Affiliation: "ウォーリック大学、英国", person3Text: "多孔質媒体の流動と粒子移動に向けた画像ベースモデルを探索。",
+  person10Role: "博士課程研究者", person10Affiliation: "ウォーリック大学、英国", person10Text: "ブラウン運動と確率モデリングを用いた確率予測とリスクを考慮した逐次意思決定を研究。",
+  person3Role: "博士課程研究者", person3Affiliation: "ウォーリック大学、英国", person3Text: "多孔質媒体の流動と粒子移動に向けた画像ベースモデルを探索。",
   person4Role: "客員研究員", person4Affiliation: "南昌大学、中国", person4Text: "降雨による斜面応答に向けた拡散モデルと物理情報ニューラル演算子。",
   person5Role: "研究助手", person5Affiliation: "香港中文大学、中国香港特別行政区", person5Text: "画像分割と工学AI、原子炉用黒鉛への応用を探索。",
   person6Role: "元客員学生 · マリー・スクウォドフスカ＝キュリー・フェロー", person6Affiliation: "リバプール大学、英国", person6Text: "空間変動地盤とデータ駆動型地盤解析に向けたGeoAI、確率モデリング、不確実性を考慮したシミュレーションを研究しています。",
@@ -341,7 +341,7 @@ translations.ja = {
   joinLabel: "参加機会", joinTitle: "研究室に参加する",
   joinText: "三つの研究軸と関心が重なる博士課程志望者、客員研究者、共同研究者からの具体的なお問い合わせを歓迎します。",
   emailDerek: "Derekにメールする",
-  contactEyebrow: "お問い合わせ", contactTitle: "不確実性を有用な意思決定へ変えましょう。",
+  contactEyebrow: "お問い合わせ", contactTitle: "不確実性を<span class=\"gradient-emphasis\">有用な意思決定</span>へ変えましょう。",
   contactText: "研究連携、学生指導、政策研究、学際プロジェクトについては、簡単なメールからご相談ください。",
   footerTagline: "確率的リスク・インテリジェンス研究室 · 不確実性をモデル化し、証拠を解釈し、意思決定を設計する。",
   backToTop: "ページ上部へ ↑"
@@ -457,6 +457,7 @@ Object.assign(translations.ja, {
 });
 
 Object.assign(translations.en, {
+  researchTradingEntry: "Algorithmic trading research",
   tradingEntry: "听风 × Auralis Tech ↗",
   tradingHomeLabel: "Return to the SRI Lab homepage",
   tradingBrandSub: "Algorithmic trading research",
@@ -464,7 +465,7 @@ Object.assign(translations.en, {
   tradingTitle: "Reading market structure. <span>Building systematic decisions.</span>",
   tradingIntro: "We study event-based signals and multi-scale market context, then connect research decisions to replayable execution and risk checks.",
   tradingMarketsLabel: "Markets under research",
-  tradingMarkets: "Gold · Equity indices · Bitcoin",
+  tradingMarkets: "Forex · Crypto · Equity indices",
   tradingReturn: "Back to SRI Lab",
   tradingVisualCore: "Stochastic field",
   tradingVisualDescription: "Research themes: Brownian motion, stochastic modelling, multivariate uncertainty, extreme value analysis",
@@ -473,13 +474,14 @@ Object.assign(translations.en, {
   tradingMethodEyebrow: "The research lens",
   tradingMethodTitle: "From market events to controlled decisions.",
   tradingCard1Kicker: "01 / MARKET STRUCTURE", tradingCard1Title: "Events over clock time.", tradingCard1Text: "Explore how price moves across multiple scales, and when regimes favour reversion or continuation.",
-  tradingCard2Kicker: "02 / SYSTEMATIC RESEARCH", tradingCard2Title: "Signals with context.", tradingCard2Text: "Study probabilistic signals across gold, equity indices and Bitcoin, with each market evaluated on its own evidence.",
+  tradingCard2Kicker: "02 / SYSTEMATIC RESEARCH", tradingCard2Title: "Signals with context.", tradingCard2Text: "Study probabilistic signals across forex, crypto and equity indices, with each market evaluated on its own evidence.",
   tradingCard3Kicker: "03 / EXECUTION & CONTROL", tradingCard3Title: "Decisions we can replay.", tradingCard3Text: "Build a trace from research decisions to target positions, execution records, costs and risk checks.",
   tradingStatus: "Research & development preview · No performance claims",
   tradingFooterReturn: "Return to main site ↗"
 });
 
 Object.assign(translations.zh, {
+  researchTradingEntry: "算法交易研究",
   tradingEntry: "听风 × Auralis Tech ↗",
   tradingHomeLabel: "返回随机风险智能实验室主页",
   tradingBrandSub: "算法交易研究",
@@ -487,7 +489,7 @@ Object.assign(translations.zh, {
   tradingTitle: "读懂市场结构，<span>构建系统化决策。</span>",
   tradingIntro: "我们研究事件驱动信号与多尺度市场状态，并将研究决策连接到可回放的执行和风险检查。",
   tradingMarketsLabel: "研究市场",
-  tradingMarkets: "黄金 · 股指 · 比特币",
+  tradingMarkets: "外汇 · 加密资产 · 股票指数",
   tradingReturn: "返回 SRI Lab",
   tradingVisualCore: "随机过程",
   tradingVisualDescription: "研究主题：布朗运动、随机建模、多变量不确定性与极值分析",
@@ -496,13 +498,14 @@ Object.assign(translations.zh, {
   tradingMethodEyebrow: "研究视角",
   tradingMethodTitle: "从市场事件到受控决策。",
   tradingCard1Kicker: "01 / 市场结构", tradingCard1Title: "以事件观察价格。", tradingCard1Text: "研究不同尺度上的价格变化，以及均值回复与趋势延续各自适用的市场状态。",
-  tradingCard2Kicker: "02 / 系统化研究", tradingCard2Title: "让信号有上下文。", tradingCard2Text: "研究黄金、股指和比特币的概率信号，并分别依据各市场的证据评估。",
+  tradingCard2Kicker: "02 / 系统化研究", tradingCard2Title: "让信号有上下文。", tradingCard2Text: "研究外汇、加密资产和股票指数的概率信号，并分别依据各市场的证据评估。",
   tradingCard3Kicker: "03 / 执行与约束", tradingCard3Title: "让决策可以回放。", tradingCard3Text: "建立从研究决策到目标仓位、执行记录、成本与风险检查的可追踪链路。",
   tradingStatus: "研发概念预览 · 不展示业绩主张",
   tradingFooterReturn: "返回主站 ↗"
 });
 
 Object.assign(translations.ko, {
+  researchTradingEntry: "알고리즘 트레이딩 연구",
   tradingEntry: "听风 × Auralis Tech ↗",
   tradingHomeLabel: "SRI Lab 홈페이지로 돌아가기",
   tradingBrandSub: "알고리즘 트레이딩 연구",
@@ -510,7 +513,7 @@ Object.assign(translations.ko, {
   tradingTitle: "시장 구조를 읽고, <span>체계적인 결정을 설계합니다.</span>",
   tradingIntro: "이벤트 기반 신호와 여러 시간 척도의 시장 맥락을 연구하고, 연구 결정을 재현 가능한 실행 및 위험 점검과 연결합니다.",
   tradingMarketsLabel: "연구 대상 시장",
-  tradingMarkets: "금 · 주가지수 · 비트코인",
+  tradingMarkets: "외환 · 암호자산 · 주가지수",
   tradingReturn: "SRI Lab으로 돌아가기",
   tradingVisualCore: "확률적 장",
   tradingVisualDescription: "연구 주제: 브라운 운동, 확률적 모델링, 다변량 불확실성, 극값 분석",
@@ -519,13 +522,14 @@ Object.assign(translations.ko, {
   tradingMethodEyebrow: "연구 관점",
   tradingMethodTitle: "시장 이벤트에서 통제된 결정까지.",
   tradingCard1Kicker: "01 / 시장 구조", tradingCard1Title: "시계보다 이벤트를 봅니다.", tradingCard1Text: "여러 척도의 가격 변화와 평균회귀·추세 지속에 유리한 시장 국면을 연구합니다.",
-  tradingCard2Kicker: "02 / 체계적 연구", tradingCard2Title: "맥락을 갖춘 신호.", tradingCard2Text: "금, 주가지수, 비트코인의 확률 신호를 연구하고 시장별 근거를 따로 평가합니다.",
+  tradingCard2Kicker: "02 / 체계적 연구", tradingCard2Title: "맥락을 갖춘 신호.", tradingCard2Text: "외환, 암호자산, 주가지수의 확률 신호를 연구하고 시장별 근거를 따로 평가합니다.",
   tradingCard3Kicker: "03 / 실행과 통제", tradingCard3Title: "재현 가능한 결정.", tradingCard3Text: "연구 결정부터 목표 포지션, 실행 기록, 비용, 위험 점검까지 추적 가능한 경로를 설계합니다.",
   tradingStatus: "연구개발 미리보기 · 성과 주장 없음",
   tradingFooterReturn: "메인 사이트로 돌아가기 ↗"
 });
 
 Object.assign(translations.ja, {
+  researchTradingEntry: "アルゴリズム取引の研究",
   tradingEntry: "听风 × Auralis Tech ↗",
   tradingHomeLabel: "SRI Lab のホームページに戻る",
   tradingBrandSub: "アルゴリズム取引の研究",
@@ -533,7 +537,7 @@ Object.assign(translations.ja, {
   tradingTitle: "市場構造を読み、<span>体系的な判断を設計する。</span>",
   tradingIntro: "イベントに基づくシグナルと複数の時間尺度の市場状況を研究し、研究上の判断を再現可能な執行とリスク確認につなげます。",
   tradingMarketsLabel: "研究対象市場",
-  tradingMarkets: "金 · 株価指数 · ビットコイン",
+  tradingMarkets: "外国為替 · 暗号資産 · 株価指数",
   tradingReturn: "SRI Lab に戻る",
   tradingVisualCore: "確率的フィールド",
   tradingVisualDescription: "研究テーマ：ブラウン運動、確率モデリング、多変量の不確実性、極値解析",
@@ -542,7 +546,7 @@ Object.assign(translations.ja, {
   tradingMethodEyebrow: "研究の視点",
   tradingMethodTitle: "市場イベントから管理された判断へ。",
   tradingCard1Kicker: "01 / 市場構造", tradingCard1Title: "時間よりイベントを捉える。", tradingCard1Text: "複数の尺度での価格変動と、平均回帰やトレンド継続に適した市場状況を研究します。",
-  tradingCard2Kicker: "02 / 体系的研究", tradingCard2Title: "文脈を持つシグナル。", tradingCard2Text: "金、株価指数、ビットコインの確率的シグナルを研究し、市場ごとに根拠を評価します。",
+  tradingCard2Kicker: "02 / 体系的研究", tradingCard2Title: "文脈を持つシグナル。", tradingCard2Text: "外国為替、暗号資産、株価指数の確率的シグナルを研究し、市場ごとに根拠を評価します。",
   tradingCard3Kicker: "03 / 執行と管理", tradingCard3Title: "再現できる判断。", tradingCard3Text: "研究判断から目標ポジション、執行記録、コスト、リスク確認まで追跡できる流れを構築します。",
   tradingStatus: "研究開発プレビュー · 運用実績の主張なし",
   tradingFooterReturn: "メインサイトに戻る ↗"
