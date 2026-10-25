@@ -282,6 +282,18 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 .branch-two .branch-label { color: var(--blue); }
 .branch-three .branch-label { color: var(--gold); }
 
+.projects-section { padding-top: clamp(3rem, 6vw, 6rem); border-top: 1px solid var(--line); }
+.projects-section .section-intro { margin-bottom: clamp(2rem, 4vw, 3.5rem); }
+.projects-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.project-card { min-width: 0; padding: clamp(1.5rem, 3vw, 2.3rem); border: 1px solid var(--line); border-radius: var(--radius); background: rgba(251, 248, 241, 0.78); }
+.project-card:first-child { background: linear-gradient(120deg, rgba(14, 165, 233, 0.1), rgba(124, 58, 237, 0.09) 58%, rgba(255, 253, 248, 0.76)); }
+.project-card h3 { margin: 0.8rem 0 1rem; overflow-wrap: anywhere; font-family: Newsreader, Georgia, serif; font-size: clamp(1.45rem, 2.3vw, 2rem); font-weight: 500; line-height: 1.16; letter-spacing: -0.025em; }
+.project-card p { margin: 0; color: var(--muted); font-size: 0.88rem; }
+.project-card .project-fund { color: var(--green); font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
+.project-card .project-role { margin-bottom: 0.7rem; color: var(--ink); font-weight: 700; }
+.projects-source { display: inline-flex; gap: 0.35rem; margin-top: 1.7rem; padding-bottom: 0.2rem; border-bottom: 1px solid var(--green); color: var(--green); font-size: 0.85rem; font-weight: 700; }
+#projects, #ias-defi-project { scroll-margin-top: 6rem; }
+
 .impact-panel {
   display: grid;
   grid-template-columns: minmax(280px, 0.78fr) minmax(0, 1.22fr);
@@ -367,12 +379,16 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 .scroll-reveal { opacity: 0; filter: blur(8px); transform: translate3d(0, 42px, 0) scale(0.988); transition: opacity 900ms cubic-bezier(0.22, 1, 0.36, 1), transform 900ms cubic-bezier(0.22, 1, 0.36, 1), filter 800ms ease; transition-delay: var(--reveal-delay, 0ms); will-change: opacity, transform, filter; }
 .scroll-reveal.is-visible { opacity: 1; filter: blur(0); transform: translate3d(0, 0, 0) scale(1); }
 
-@media (max-width: 1020px) {
+@media (max-width: 1180px) {
   .site-header { grid-template-columns: 1fr auto; }
   .nav { display: none; }
+}
+
+@media (max-width: 1020px) {
   .hero { grid-template-columns: 1fr; min-height: auto; }
   .profile-card { max-width: 560px; }
   .research-grid { grid-template-columns: 1fr; }
+  .projects-grid { grid-template-columns: 1fr; }
   .research-section .section-intro { grid-template-columns: minmax(0, 1fr) minmax(280px, 0.85fr); column-gap: 2.5rem; }
   .research-card { display: grid; grid-template-columns: minmax(240px, 0.8fr) minmax(320px, 1.2fr); }
   .research-visual { height: 100%; min-height: 22rem; }

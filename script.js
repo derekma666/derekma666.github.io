@@ -307,33 +307,105 @@ translations.ja = {
   backToTop: "ページ上部へ ↑"
 };
 
-// Awarded IAS project; project dates remain planned and no award amount is asserted.
+// Project roles and dates follow the Warwick profile's Selected Projects section.
 Object.assign(translations.en, {
-  "projectEyebrow": "Awarded research project",
-  "projectAward": "University of Warwick · Institute of Advanced Study (IAS)<br>Interdisciplinary Research Development Award",
-  "projectPeriod": "Awarded · Planned project period: January–July 2027",
-  "projectTeam": "<strong>PI:</strong> Dr Kaihua Qin<br><strong>Co-I:</strong> Dr Derek Guotao Ma<br><strong>External collaborator:</strong> Prof Jiahua Xu (University College London, UCL)"
+  navProjects: "Projects", projectsEyebrow: "Selected projects",
+  projectsTitle: "Research across <span class=\"gradient-emphasis\">disciplines and decisions.</span>",
+  projectsIntro: "A selection of research projects and contributions listed on my University of Warwick profile.",
+  projectsSource: "View Selected Projects on the Warwick profile",
+  project1Fund: "Warwick IAS · Interdisciplinary Research Development Award (2026)",
+  project1Role: "Co-Investigator · With Dr Kaihua Qin (PI) and Prof Jiahua Xu (UCL)",
+  project1Text: "Integrates computer security, stochastic modelling and financial economics to assess systemic risk and cascading failures in decentralised finance.",
+  project2Fund: "Fudan–Warwick Joint Seed Fund",
+  project2Role: "Co-Investigator · With Dr Feng Mao (Warwick) and Prof Jian Pu (Fudan)",
+  project2Text: "Combines deep learning and stochastic random fields to address spatial uncertainty in subsurface characterisation.",
+  project3Fund: "Shanghai Jiao Tong University–Warwick Joint Seed Fund",
+  project3Role: "In collaboration with Prof Lulu Zhang (Shanghai Jiao Tong University)",
+  project3Text: "Combines machine learning and probabilistic reliability analysis to improve landslide risk assessment under geological and geotechnical uncertainty.",
+  project4Fund: "European Commission Horizon 2020 · MSCA-RISE (2020–2026)",
+  project4Role: "Participating Researcher",
+  project4Text: "Contributed stochastic modelling, spatial heterogeneity and uncertainty quantification to interdisciplinary environmental and subsurface research.",
+  project5Fund: "Warwick IAS · Early Career Fellowship (2021–2022)",
+  project5Role: "Fellowship Holder",
+  project5Text: "Supported independent research development in computational geomechanics, stochastic modelling and uncertainty quantification for geohazard risk.",
+  project6Fund: "Welsh Government · Coal Tip Safety Taskforce (2022)",
+  project6Role: "Researcher and Policy Advisor",
+  project6Text: "Applied computational geomechanics and landslide risk modelling to support coal tip safety assessment and policy in Wales."
 });
 
 Object.assign(translations.zh, {
-  "projectEyebrow": "已获批科研项目",
-  "projectAward": "华威大学 · 高等研究院（IAS）<br>Interdisciplinary Research Development Award（跨学科研究发展资助）",
-  "projectPeriod": "已获批 · 计划执行期：2027年1月至7月",
-  "projectTeam": "<strong>项目负责人（PI）：</strong>Dr Kaihua Qin<br><strong>共同研究者（Co-I）：</strong>Dr Derek Guotao Ma<br><strong>外部合作者：</strong>Prof Jiahua Xu（伦敦大学学院，UCL）"
+  navProjects: "项目", projectsEyebrow: "代表性项目",
+  projectsTitle: "跨学科研究，<span class=\"gradient-emphasis\">面向真实决策。</span>",
+  projectsIntro: "以下选录华威大学个人主页列出的研究项目与本人贡献。",
+  projectsSource: "在华威大学主页查看代表性项目",
+  project1Fund: "华威大学 IAS · 跨学科研究发展资助（2026）",
+  project1Role: "共同研究者 · 与项目负责人 Dr Kaihua Qin 及伦敦大学学院 Prof Jiahua Xu 合作",
+  project1Text: "结合计算机安全、随机建模与金融经济学，评估去中心化金融系统中的系统性风险和级联失效。",
+  project2Fund: "复旦大学–华威大学联合种子基金",
+  project2Role: "共同研究者 · 与华威大学 Dr Feng Mao、复旦大学 Prof Jian Pu 合作",
+  project2Text: "结合深度学习与随机场建模，研究地下介质表征中的空间不确定性。",
+  project3Fund: "上海交通大学–华威大学联合种子基金",
+  project3Role: "与上海交通大学 Prof Lulu Zhang 合作",
+  project3Text: "结合机器学习与概率可靠度分析，改进地质和岩土不确定性下的滑坡风险评估。",
+  project4Fund: "欧盟 Horizon 2020 · MSCA-RISE（2020–2026）",
+  project4Role: "参与研究人员",
+  project4Text: "为环境与地下系统的跨学科研究贡献随机建模、空间异质性和不确定性量化方法。",
+  project5Fund: "华威大学 IAS · 早期职业研究员项目（2021–2022）",
+  project5Role: "研究员项目获得者",
+  project5Text: "支持针对地质灾害风险的计算岩土力学、随机建模与不确定性量化独立研究。",
+  project6Fund: "威尔士政府 · 煤矸石堆安全工作组（2022）",
+  project6Role: "研究人员及政策顾问",
+  project6Text: "应用计算岩土力学和滑坡风险建模，支持威尔士废弃煤矸石堆的安全评估与政策制定。"
 });
 
 Object.assign(translations.ko, {
-  "projectEyebrow": "지원이 확정된 연구 프로젝트",
-  "projectAward": "워릭대학교 · 고등연구원(IAS)<br>Interdisciplinary Research Development Award",
-  "projectPeriod": "지원 확정 · 예정 연구 기간: 2027년 1월–7월",
-  "projectTeam": "<strong>연구책임자(PI):</strong> Dr Kaihua Qin<br><strong>공동연구자(Co-I):</strong> Dr Derek Guotao Ma<br><strong>외부 협력자:</strong> Prof Jiahua Xu (University College London, UCL)"
+  navProjects: "프로젝트", projectsEyebrow: "주요 프로젝트",
+  projectsTitle: "<span class=\"gradient-emphasis\">학문 분야와 의사결정</span>을 잇는 연구.",
+  projectsIntro: "워릭대학교 공식 프로필에 기재된 연구 프로젝트와 참여 내역입니다.",
+  projectsSource: "워릭대학교 프로필에서 주요 프로젝트 보기",
+  project1Fund: "워릭대학교 IAS · 학제간 연구개발 지원(2026)",
+  project1Role: "공동연구자 · 연구책임자 Dr Kaihua Qin, UCL Prof Jiahua Xu와 협력",
+  project1Text: "컴퓨터 보안, 확률 모델링, 금융경제학을 결합해 탈중앙화 금융의 시스템 리스크와 연쇄 실패를 평가합니다.",
+  project2Fund: "푸단대학교–워릭대학교 공동 시드 펀드",
+  project2Role: "공동연구자 · 워릭대학교 Dr Feng Mao, 푸단대학교 Prof Jian Pu와 협력",
+  project2Text: "딥러닝과 확률 랜덤 필드를 결합해 지하 특성화의 공간적 불확실성을 다룹니다.",
+  project3Fund: "상하이교통대학교–워릭대학교 공동 시드 펀드",
+  project3Role: "상하이교통대학교 Prof Lulu Zhang과 공동 연구",
+  project3Text: "머신러닝과 확률론적 신뢰도 분석을 결합해 지질 및 지반 불확실성 아래의 산사태 리스크 평가를 개선합니다.",
+  project4Fund: "유럽연합 Horizon 2020 · MSCA-RISE(2020–2026)",
+  project4Role: "참여 연구자",
+  project4Text: "환경 및 지하 시스템의 학제간 연구에 확률 모델링, 공간적 이질성, 불확실성 정량화 방법을 기여했습니다.",
+  project5Fund: "워릭대학교 IAS · 초기 경력 연구 펠로십(2021–2022)",
+  project5Role: "펠로십 수혜자",
+  project5Text: "지질재해 리스크를 위한 계산 지반역학, 확률 모델링, 불확실성 정량화의 독립 연구를 지원했습니다.",
+  project6Fund: "웨일스 정부 · 석탄 폐석더미 안전 태스크포스(2022)",
+  project6Role: "연구자 및 정책 자문위원",
+  project6Text: "계산 지반역학과 산사태 리스크 모델링을 적용해 웨일스 석탄 폐석더미의 안전 평가와 정책 수립을 지원했습니다."
 });
 
 Object.assign(translations.ja, {
-  "projectEyebrow": "採択された研究プロジェクト",
-  "projectAward": "ウォーリック大学 · 高等研究所（IAS）<br>Interdisciplinary Research Development Award",
-  "projectPeriod": "採択済み · 研究期間（予定）：2027年1月–7月",
-  "projectTeam": "<strong>研究代表者（PI）：</strong> Dr Kaihua Qin<br><strong>共同研究者（Co-I）：</strong> Dr Derek Guotao Ma<br><strong>外部共同研究者：</strong> Prof Jiahua Xu（University College London, UCL）"
+  navProjects: "プロジェクト", projectsEyebrow: "主なプロジェクト",
+  projectsTitle: "<span class=\"gradient-emphasis\">分野と意思決定</span>をつなぐ研究。",
+  projectsIntro: "ウォーリック大学の公式プロフィールに掲載された研究プロジェクトと参加実績です。",
+  projectsSource: "ウォーリック大学のプロフィールで主なプロジェクトを見る",
+  project1Fund: "ウォーリック大学 IAS · 学際的研究開発助成（2026年）",
+  project1Role: "共同研究者 · 研究代表者 Dr Kaihua Qin、UCL の Prof Jiahua Xu と協力",
+  project1Text: "コンピュータセキュリティ、確率モデル、金融経済学を統合し、分散型金融におけるシステミックリスクと連鎖的障害を評価します。",
+  project2Fund: "復旦大学–ウォーリック大学共同シード基金",
+  project2Role: "共同研究者 · ウォーリック大学の Dr Feng Mao、復旦大学の Prof Jian Pu と協力",
+  project2Text: "深層学習と確率的ランダムフィールドを組み合わせ、地下特性評価における空間的不確実性を扱います。",
+  project3Fund: "上海交通大学–ウォーリック大学共同シード基金",
+  project3Role: "上海交通大学の Prof Lulu Zhang と共同研究",
+  project3Text: "機械学習と確率論的信頼性解析を組み合わせ、地質・地盤の不確実性を考慮した地すべりリスク評価を改善します。",
+  project4Fund: "欧州委員会 Horizon 2020 · MSCA-RISE（2020–2026年）",
+  project4Role: "参加研究者",
+  project4Text: "環境・地下システムの学際的研究に、確率モデル、空間的不均質性、不確実性定量化の手法で貢献しました。",
+  project5Fund: "ウォーリック大学 IAS · 若手研究者フェローシップ（2021–2022年）",
+  project5Role: "フェローシップ採択者",
+  project5Text: "地質災害リスクに関する計算地盤力学、確率モデル、不確実性定量化の独立研究を支援しました。",
+  project6Fund: "ウェールズ政府 · 石炭廃棄物堆積場安全タスクフォース（2022年）",
+  project6Role: "研究者・政策アドバイザー",
+  project6Text: "計算地盤力学と地すべりリスクモデルを応用し、ウェールズの石炭採掘に伴う廃石堆積場の安全評価と政策立案を支援しました。"
 });
 
 const year = document.getElementById("year");
