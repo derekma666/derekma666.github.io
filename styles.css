@@ -451,6 +451,7 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
   .hero { gap: 2rem; padding-top: 2.4rem; padding-bottom: 2.5rem; }
   h1 { font-size: clamp(2.6rem, 10.5vw, 3.2rem); line-height: 1.05; }
   .hero h1 br { display: none; }
+  .hero h1 .gradient-text { display: inline-block; }
   .hero-tagline { margin-top: 1rem; font-size: 1.02rem; }
   .hero-lede { margin-top: 0.65rem; font-size: 0.96rem; line-height: 1.55; }
   .hero-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.55rem; margin-top: 1.3rem; }
