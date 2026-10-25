@@ -281,11 +281,12 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 .research-content li { padding: 0.38rem 0.6rem; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: 0.75rem; }
 .branch-two .branch-label { color: var(--blue); }
 .branch-three .branch-label { color: var(--gold); }
-.research-trading-entry { display: inline-flex; align-items: center; justify-content: center; min-width: 2.65rem; min-height: 2.65rem; margin-top: 1rem; border: 1px solid var(--line); border-radius: 0.65rem; color: var(--green); background: rgba(255, 253, 248, 0.42); transition: border-color 160ms ease, color 160ms ease, transform 160ms ease; }
+.research-trading-entry { display: inline-flex; align-items: center; justify-content: center; gap: 0.4rem; min-height: 2.65rem; margin-top: 1rem; padding: 0.25rem 0.8rem 0.25rem 0.25rem; border: 1px solid var(--line); border-radius: 0.65rem; color: var(--green); background: rgba(255, 250, 242, 0.62); transition: border-color 160ms ease, color 160ms ease, transform 160ms ease; }
 .research-trading-entry:hover { border-color: var(--green); color: var(--ink); transform: translateY(-2px); }
 .research-trading-entry:focus-visible { outline: 3px solid rgba(31, 108, 89, 0.25); outline-offset: 3px; }
-.research-trading-mark { display: flex; align-items: center; justify-content: center; width: 2.25rem; height: 2.25rem; font-family: "DM Sans", sans-serif; font-size: 1.2rem; font-weight: 600; letter-spacing: -0.12em; line-height: 1; }
+.research-trading-mark { display: flex; flex: 0 0 auto; align-items: center; justify-content: center; width: 2.1rem; height: 2.1rem; font-family: "DM Sans", sans-serif; font-size: 1.15rem; font-weight: 600; letter-spacing: -0.12em; line-height: 1; }
 .research-trading-mark span { font-size: 0.78em; font-weight: 400; }
+.research-trading-name { font-size: 0.78rem; font-weight: 650; letter-spacing: -0.01em; white-space: nowrap; }
 
 .projects-section { padding-top: clamp(3rem, 6vw, 6rem); border-top: 1px solid var(--line); }
 .projects-section .section-intro { max-width: none; grid-template-columns: minmax(0, 1.25fr) minmax(250px, 0.75fr); align-items: end; margin-bottom: clamp(1.5rem, 3vw, 2.5rem); }
@@ -343,7 +344,7 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 .evidence-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.65rem; }
 .evidence-period { grid-column: 1 / -1; margin: 0 0 0.15rem; color: var(--green); font-size: 0.73rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; }
 .evidence-metric { min-width: 0; min-height: 165px; padding: 1.05rem; border: 1px solid rgba(255, 255, 255, 0.9); border-radius: 1.2rem; background: rgba(255, 255, 255, 0.76); box-shadow: 0 8px 24px rgba(39, 55, 83, 0.04); }
-.evidence-metric strong { display: block; margin-bottom: 1.5rem; color: #2563eb; font-family: Newsreader, Georgia, serif; font-size: clamp(2.5rem, 3.8vw, 3.9rem); font-weight: 500; line-height: 1; letter-spacing: -0.05em; }
+.evidence-metric strong { display: block; width: fit-content; margin-bottom: 1.5rem; color: transparent; background: linear-gradient(110deg, #0ea5e9, #4f77e8 46%, #7c3aed 82%, #a855f7); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-family: Newsreader, Georgia, serif; font-size: clamp(2.5rem, 3.8vw, 3.9rem); font-weight: 500; line-height: 1; letter-spacing: -0.05em; }
 .evidence-metric strong span { font-size: 0.45em; }
 .evidence-metric h4 { margin: 0 0 0.25rem; font-size: 0.86rem; line-height: 1.25; }
 .evidence-metric p { margin: 0; color: var(--muted); font-size: 0.72rem; }
@@ -353,7 +354,7 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 .survey-table th, .survey-table td { padding: 0.65rem 0.35rem; border-bottom: 1px solid var(--line); vertical-align: baseline; }
 .survey-table thead th { color: var(--muted); font-size: 0.72rem; font-weight: 700; }
 .survey-table tbody th { white-space: nowrap; font-size: 0.82rem; font-weight: 700; }
-.survey-table td strong { color: #2563eb; font-family: Newsreader, Georgia, serif; font-size: 1.55rem; font-weight: 600; line-height: 1; }
+.survey-table td strong { color: transparent; background: linear-gradient(110deg, #0ea5e9, #4f77e8 46%, #7c3aed 82%, #a855f7); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-family: Newsreader, Georgia, serif; font-size: 1.55rem; font-weight: 600; line-height: 1; }
 .survey-table td span { white-space: nowrap; color: var(--muted); font-size: 0.73rem; }
 .survey-positive { margin: 0.95rem 0 0; color: var(--ink); font-size: 0.82rem; font-weight: 700; }
 .survey-source { margin: 0.4rem 0 0; color: var(--muted); font-size: 0.72rem; line-height: 1.5; }
@@ -385,7 +386,7 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 .join-button:hover { transform: translateY(-2px); box-shadow: 0 18px 40px rgba(124, 58, 237, 0.3); }
 
 .contact-section { padding-top: clamp(1rem, 2vw, 2rem); }
-.contact-card { max-width: 1180px; margin: 0 auto; padding: clamp(2rem, 6vw, 5.2rem); border: 1px solid var(--line); border-radius: 2.4rem; background: linear-gradient(120deg, rgba(255, 253, 248, 0.78), rgba(237, 242, 237, 0.8)); box-shadow: var(--shadow); text-align: center; }
+.contact-card { max-width: 1180px; margin: 0 auto; padding: clamp(2rem, 6vw, 5.2rem); border: 1px solid var(--line); border-radius: 2.4rem; background: rgba(255, 250, 242, 0.86); box-shadow: var(--shadow); text-align: center; }
 .contact-card h2 { max-width: 900px; margin-inline: auto; }
 .contact-card > p:not(.eyebrow) { max-width: 680px; margin: 1.2rem auto 0; color: var(--muted); }
 .contact-email { display: inline-flex; gap: 0.4rem; margin-top: 2rem; padding-bottom: 0.25rem; border-bottom: 1px solid var(--ink); font-size: clamp(1rem, 2vw, 1.35rem); font-weight: 700; }
@@ -540,4 +541,8 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
   .scroll-reveal { opacity: 1; filter: none; transform: none; transition: none; }
   .button:hover { transform: none; }
   .research-card:hover .research-visual img { transform: none; filter: none; }
+}
+
+@media (forced-colors: active) {
+  .evidence-metric strong, .survey-table td strong { color: CanvasText; background: none; -webkit-text-fill-color: CanvasText; }
 }
