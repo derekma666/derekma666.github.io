@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#070b09">
+  <title>听风 × Auralis Tech | Algorithmic Trading Research</title>
+  <meta name="description" content="A research preview of event-based market signals, multi-scale context and controlled execution across gold, equity indices and Bitcoin.">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/sri-favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="trading.css">
+</head>
+<body class="trading-page">
+  <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
+
+  <header class="trading-header">
+    <a class="trading-brand" href="index.html#top" aria-label="Return to the SRI Lab homepage" data-i18n-aria-label="tradingHomeLabel" data-language-link>
+      <span class="trading-mark" aria-hidden="true">A<span class="trading-mark-slash">/</span></span>
+      <span><strong>听风 × Auralis Tech</strong><small data-i18n="tradingBrandSub">Algorithmic trading research</small></span>
+    </a>
+    <div class="language-switcher" id="languageSwitcher" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true">EN</button>
+      <button type="button" data-lang="zh" aria-pressed="false">中文</button>
+      <button type="button" data-lang="ko" aria-pressed="false">한국어</button>
+      <button type="button" data-lang="ja" aria-pressed="false">日本語</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="trading-hero">
+      <div class="trading-copy">
+        <p class="trading-kicker" data-i18n="tradingEyebrow">Research &amp; development preview</p>
+        <h1 data-i18n="tradingTitle">Reading market structure. <span>Building systematic decisions.</span></h1>
+        <p class="trading-lede" data-i18n="tradingIntro">We study event-based signals and multi-scale market context, then connect research decisions to replayable execution and risk checks.</p>
+        <p class="trading-markets"><span data-i18n="tradingMarketsLabel">Markets under research</span><strong data-i18n="tradingMarkets">Gold · Equity indices · Bitcoin</strong></p>
+        <a class="trading-return" href="index.html#top" data-language-link><span aria-hidden="true">←</span> <span data-i18n="tradingReturn">Back to SRI Lab</span></a>
+      </div>
+      <div class="trading-diagram" role="group" aria-label="Mathematical research themes" data-i18n-aria-label="tradingVisualDescription">
+        <div class="diagram-art" aria-hidden="true">
+          <img src="assets/auralis-signal-field.svg" alt="" width="620" height="560">
+          <canvas class="diagram-canvas" width="620" height="560"></canvas>
+          <span class="diagram-center" data-i18n="tradingVisualCore">Stochastic field</span>
+        </div>
+        <div class="diagram-terms">
+          <span class="diagram-label label-one"><b>01</b><strong>Brownian motion</strong><small class="diagram-local" data-i18n="tradingMath1Local">布朗运动</small></span>
+          <span class="diagram-label label-two"><b>02</b><strong>Stochastic modelling</strong><small class="diagram-local" data-i18n="tradingMath2Local">随机建模</small></span>
+          <span class="diagram-label label-three"><b>03</b><strong>Multivariate uncertainty</strong><small class="diagram-local" data-i18n="tradingMath3Local">多变量不确定性</small></span>
+          <span class="diagram-label label-four"><b>04</b><strong>Extreme value analysis</strong><small class="diagram-local" data-i18n="tradingMath4Local">极值分析</small></span>
+        </div>
+        <button class="diagram-motion" type="button" hidden>
+          <span class="motion-pause" data-i18n="tradingMotionPause">Pause motion</span>
+          <span class="motion-resume" data-i18n="tradingMotionResume" hidden>Resume motion</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="trading-process" aria-labelledby="trading-process-title">
+      <div class="process-intro">
+        <p class="trading-kicker" data-i18n="tradingMethodEyebrow">The research lens</p>
+        <h2 id="trading-process-title" data-i18n="tradingMethodTitle">From market events to controlled decisions.</h2>
+      </div>
+      <div class="process-grid">
+        <article class="process-card"><span data-i18n="tradingCard1Kicker">01 / MARKET STRUCTURE</span><h3 data-i18n="tradingCard1Title">Events over clock time.</h3><p data-i18n="tradingCard1Text">Explore how price moves across multiple scales, and when regimes favour reversion or continuation.</p></article>
+        <article class="process-card"><span data-i18n="tradingCard2Kicker">02 / SYSTEMATIC RESEARCH</span><h3 data-i18n="tradingCard2Title">Signals with context.</h3><p data-i18n="tradingCard2Text">Study probabilistic signals across gold, equity indices and Bitcoin, with each market evaluated on its own evidence.</p></article>
+        <article class="process-card"><span data-i18n="tradingCard3Kicker">03 / EXECUTION &amp; CONTROL</span><h3 data-i18n="tradingCard3Title">Decisions we can replay.</h3><p data-i18n="tradingCard3Text">Build a trace from research decisions to target positions, execution records, costs and risk checks.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="trading-footer">
+    <p data-i18n="tradingStatus">Research &amp; development preview · No performance claims</p>
+    <a href="index.html#top" data-i18n="tradingFooterReturn" data-language-link>Return to main site ↗</a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="trading-animation.js"></script>
+</body>
+</html>

@@ -456,6 +456,98 @@ Object.assign(translations.ja, {
   project6Text: "計算地盤力学と地すべりリスクモデルを応用し、ウェールズの石炭採掘に伴う廃石堆積場の安全評価と政策立案を支援しました。"
 });
 
+Object.assign(translations.en, {
+  tradingEntry: "听风 × Auralis Tech ↗",
+  tradingHomeLabel: "Return to the SRI Lab homepage",
+  tradingBrandSub: "Algorithmic trading research",
+  tradingEyebrow: "Research & development preview",
+  tradingTitle: "Reading market structure. <span>Building systematic decisions.</span>",
+  tradingIntro: "We study event-based signals and multi-scale market context, then connect research decisions to replayable execution and risk checks.",
+  tradingMarketsLabel: "Markets under research",
+  tradingMarkets: "Gold · Equity indices · Bitcoin",
+  tradingReturn: "Back to SRI Lab",
+  tradingVisualCore: "Stochastic field",
+  tradingVisualDescription: "Research themes: Brownian motion, stochastic modelling, multivariate uncertainty, extreme value analysis",
+  tradingMath1Local: "Random paths", tradingMath2Local: "Probabilistic models", tradingMath3Local: "Joint uncertainty", tradingMath4Local: "Tail behaviour",
+  tradingMotionPause: "Pause motion", tradingMotionResume: "Resume motion",
+  tradingMethodEyebrow: "The research lens",
+  tradingMethodTitle: "From market events to controlled decisions.",
+  tradingCard1Kicker: "01 / MARKET STRUCTURE", tradingCard1Title: "Events over clock time.", tradingCard1Text: "Explore how price moves across multiple scales, and when regimes favour reversion or continuation.",
+  tradingCard2Kicker: "02 / SYSTEMATIC RESEARCH", tradingCard2Title: "Signals with context.", tradingCard2Text: "Study probabilistic signals across gold, equity indices and Bitcoin, with each market evaluated on its own evidence.",
+  tradingCard3Kicker: "03 / EXECUTION & CONTROL", tradingCard3Title: "Decisions we can replay.", tradingCard3Text: "Build a trace from research decisions to target positions, execution records, costs and risk checks.",
+  tradingStatus: "Research & development preview · No performance claims",
+  tradingFooterReturn: "Return to main site ↗"
+});
+
+Object.assign(translations.zh, {
+  tradingEntry: "听风 × Auralis Tech ↗",
+  tradingHomeLabel: "返回随机风险智能实验室主页",
+  tradingBrandSub: "算法交易研究",
+  tradingEyebrow: "研发概念预览",
+  tradingTitle: "读懂市场结构，<span>构建系统化决策。</span>",
+  tradingIntro: "我们研究事件驱动信号与多尺度市场状态，并将研究决策连接到可回放的执行和风险检查。",
+  tradingMarketsLabel: "研究市场",
+  tradingMarkets: "黄金 · 股指 · 比特币",
+  tradingReturn: "返回 SRI Lab",
+  tradingVisualCore: "随机过程",
+  tradingVisualDescription: "研究主题：布朗运动、随机建模、多变量不确定性与极值分析",
+  tradingMath1Local: "布朗运动", tradingMath2Local: "随机建模", tradingMath3Local: "多变量不确定性", tradingMath4Local: "极值分析",
+  tradingMotionPause: "暂停动画", tradingMotionResume: "继续动画",
+  tradingMethodEyebrow: "研究视角",
+  tradingMethodTitle: "从市场事件到受控决策。",
+  tradingCard1Kicker: "01 / 市场结构", tradingCard1Title: "以事件观察价格。", tradingCard1Text: "研究不同尺度上的价格变化，以及均值回复与趋势延续各自适用的市场状态。",
+  tradingCard2Kicker: "02 / 系统化研究", tradingCard2Title: "让信号有上下文。", tradingCard2Text: "研究黄金、股指和比特币的概率信号，并分别依据各市场的证据评估。",
+  tradingCard3Kicker: "03 / 执行与约束", tradingCard3Title: "让决策可以回放。", tradingCard3Text: "建立从研究决策到目标仓位、执行记录、成本与风险检查的可追踪链路。",
+  tradingStatus: "研发概念预览 · 不展示业绩主张",
+  tradingFooterReturn: "返回主站 ↗"
+});
+
+Object.assign(translations.ko, {
+  tradingEntry: "听风 × Auralis Tech ↗",
+  tradingHomeLabel: "SRI Lab 홈페이지로 돌아가기",
+  tradingBrandSub: "알고리즘 트레이딩 연구",
+  tradingEyebrow: "연구개발 미리보기",
+  tradingTitle: "시장 구조를 읽고, <span>체계적인 결정을 설계합니다.</span>",
+  tradingIntro: "이벤트 기반 신호와 여러 시간 척도의 시장 맥락을 연구하고, 연구 결정을 재현 가능한 실행 및 위험 점검과 연결합니다.",
+  tradingMarketsLabel: "연구 대상 시장",
+  tradingMarkets: "금 · 주가지수 · 비트코인",
+  tradingReturn: "SRI Lab으로 돌아가기",
+  tradingVisualCore: "확률적 장",
+  tradingVisualDescription: "연구 주제: 브라운 운동, 확률적 모델링, 다변량 불확실성, 극값 분석",
+  tradingMath1Local: "브라운 운동", tradingMath2Local: "확률적 모델링", tradingMath3Local: "다변량 불확실성", tradingMath4Local: "극값 분석",
+  tradingMotionPause: "동작 일시정지", tradingMotionResume: "동작 다시 시작",
+  tradingMethodEyebrow: "연구 관점",
+  tradingMethodTitle: "시장 이벤트에서 통제된 결정까지.",
+  tradingCard1Kicker: "01 / 시장 구조", tradingCard1Title: "시계보다 이벤트를 봅니다.", tradingCard1Text: "여러 척도의 가격 변화와 평균회귀·추세 지속에 유리한 시장 국면을 연구합니다.",
+  tradingCard2Kicker: "02 / 체계적 연구", tradingCard2Title: "맥락을 갖춘 신호.", tradingCard2Text: "금, 주가지수, 비트코인의 확률 신호를 연구하고 시장별 근거를 따로 평가합니다.",
+  tradingCard3Kicker: "03 / 실행과 통제", tradingCard3Title: "재현 가능한 결정.", tradingCard3Text: "연구 결정부터 목표 포지션, 실행 기록, 비용, 위험 점검까지 추적 가능한 경로를 설계합니다.",
+  tradingStatus: "연구개발 미리보기 · 성과 주장 없음",
+  tradingFooterReturn: "메인 사이트로 돌아가기 ↗"
+});
+
+Object.assign(translations.ja, {
+  tradingEntry: "听风 × Auralis Tech ↗",
+  tradingHomeLabel: "SRI Lab のホームページに戻る",
+  tradingBrandSub: "アルゴリズム取引の研究",
+  tradingEyebrow: "研究開発プレビュー",
+  tradingTitle: "市場構造を読み、<span>体系的な判断を設計する。</span>",
+  tradingIntro: "イベントに基づくシグナルと複数の時間尺度の市場状況を研究し、研究上の判断を再現可能な執行とリスク確認につなげます。",
+  tradingMarketsLabel: "研究対象市場",
+  tradingMarkets: "金 · 株価指数 · ビットコイン",
+  tradingReturn: "SRI Lab に戻る",
+  tradingVisualCore: "確率的フィールド",
+  tradingVisualDescription: "研究テーマ：ブラウン運動、確率モデリング、多変量の不確実性、極値解析",
+  tradingMath1Local: "ブラウン運動", tradingMath2Local: "確率モデリング", tradingMath3Local: "多変量の不確実性", tradingMath4Local: "極値解析",
+  tradingMotionPause: "動きを一時停止", tradingMotionResume: "動きを再開",
+  tradingMethodEyebrow: "研究の視点",
+  tradingMethodTitle: "市場イベントから管理された判断へ。",
+  tradingCard1Kicker: "01 / 市場構造", tradingCard1Title: "時間よりイベントを捉える。", tradingCard1Text: "複数の尺度での価格変動と、平均回帰やトレンド継続に適した市場状況を研究します。",
+  tradingCard2Kicker: "02 / 体系的研究", tradingCard2Title: "文脈を持つシグナル。", tradingCard2Text: "金、株価指数、ビットコインの確率的シグナルを研究し、市場ごとに根拠を評価します。",
+  tradingCard3Kicker: "03 / 執行と管理", tradingCard3Title: "再現できる判断。", tradingCard3Text: "研究判断から目標ポジション、執行記録、コスト、リスク確認まで追跡できる流れを構築します。",
+  tradingStatus: "研究開発プレビュー · 運用実績の主張なし",
+  tradingFooterReturn: "メインサイトに戻る ↗"
+});
+
 const year = document.getElementById("year");
 if (year) year.textContent = new Date().getFullYear();
 
@@ -473,6 +565,17 @@ function setLanguage(language, persist = true) {
     if (dictionary[key]) element.innerHTML = dictionary[key];
   });
 
+  document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
+    const key = element.dataset.i18nAriaLabel;
+    if (dictionary[key]) element.setAttribute("aria-label", dictionary[key]);
+  });
+
+  document.querySelectorAll("[data-language-link]").forEach((element) => {
+    const destination = new URL(element.getAttribute("href"), window.location.href);
+    destination.searchParams.set("lang", language);
+    element.href = destination.href;
+  });
+
   document.documentElement.lang = htmlLanguageCodes[language];
   languageButtons.forEach((button) => {
     button.setAttribute("aria-pressed", String(button.dataset.lang === language));
@@ -483,6 +586,13 @@ function setLanguage(language, persist = true) {
       localStorage.setItem("sri-language", language);
     } catch (_) {
       // The language switcher still works when storage is unavailable.
+    }
+    try {
+      const currentUrl = new URL(window.location.href);
+      currentUrl.searchParams.set("lang", language);
+      window.history.replaceState(null, "", currentUrl.href);
+    } catch (_) {
+      // Navigation links also carry the language when URL updates are unavailable.
     }
   }
 }
@@ -498,6 +608,8 @@ try {
 } catch (_) {
   // Default to English when storage is unavailable.
 }
+const linkLanguage = new URLSearchParams(window.location.search).get("lang");
+if (linkLanguage && translations[linkLanguage]) initialLanguage = linkLanguage;
 setLanguage(initialLanguage, false);
 
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;

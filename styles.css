@@ -283,15 +283,16 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 .branch-three .branch-label { color: var(--gold); }
 
 .projects-section { padding-top: clamp(3rem, 6vw, 6rem); border-top: 1px solid var(--line); }
-.projects-section .section-intro { margin-bottom: clamp(2rem, 4vw, 3.5rem); }
-.projects-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
-.project-card { min-width: 0; padding: clamp(1.5rem, 3vw, 2.3rem); border: 1px solid var(--line); border-radius: var(--radius); background: rgba(251, 248, 241, 0.78); }
+.projects-section .section-intro { max-width: none; grid-template-columns: minmax(0, 1.25fr) minmax(250px, 0.75fr); align-items: end; margin-bottom: clamp(1.5rem, 3vw, 2.5rem); }
+.projects-section .section-intro h2 { font-size: clamp(2.8rem, 4.2vw, 4.5rem); }
+.projects-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.85rem; }
+.project-card { min-width: 0; padding: clamp(1.35rem, 2.2vw, 1.85rem); border: 1px solid var(--line); border-radius: var(--radius); background: rgba(251, 248, 241, 0.78); }
 #ias-defi-project { background: linear-gradient(120deg, rgba(14, 165, 233, 0.1), rgba(124, 58, 237, 0.09) 58%, rgba(255, 253, 248, 0.76)); }
-.project-card h3 { margin: 0.8rem 0 1rem; overflow-wrap: anywhere; font-family: Newsreader, Georgia, serif; font-size: clamp(1.45rem, 2.3vw, 2rem); font-weight: 500; line-height: 1.16; letter-spacing: -0.025em; }
+.project-card h3 { margin: 0.7rem 0 0.8rem; overflow-wrap: anywhere; font-family: Newsreader, Georgia, serif; font-size: clamp(1.4rem, 2vw, 1.8rem); font-weight: 500; line-height: 1.16; letter-spacing: -0.025em; }
 .project-card p { margin: 0; color: var(--muted); font-size: 0.88rem; }
 .project-card .project-fund { color: var(--green); font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; }
 .project-card .project-role { margin-bottom: 0.7rem; color: var(--ink); font-weight: 700; }
-.projects-more { margin-top: 1rem; }
+.projects-more { margin-top: 0.85rem; }
 .projects-more summary { display: inline-flex; align-items: center; gap: 0.8rem; min-height: 3rem; padding: 0.7rem 1.05rem; border: 1px solid var(--line); border-radius: 999px; color: var(--green); background: rgba(255, 253, 248, 0.78); font-size: 0.85rem; font-weight: 700; cursor: pointer; list-style: none; }
 .projects-more summary::-webkit-details-marker { display: none; }
 .projects-more summary:hover, .projects-more summary:focus-visible { border-color: var(--green); background: var(--white); }
@@ -300,9 +301,9 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 .projects-more[open] .when-open { display: inline; }
 .projects-toggle-icon { display: grid; place-items: center; width: 1.45rem; height: 1.45rem; border-radius: 50%; color: white; background: var(--green); font-size: 1.1rem; line-height: 1; transition: transform 180ms ease; }
 .projects-more[open] .projects-toggle-icon { transform: rotate(45deg); }
-.projects-more .projects-grid { margin-top: 1rem; }
+.projects-more .projects-grid { margin-top: 0.85rem; }
 .projects-source { display: inline-flex; gap: 0.35rem; margin-top: 1.7rem; padding-bottom: 0.2rem; border-bottom: 1px solid var(--green); color: var(--green); font-size: 0.85rem; font-weight: 700; }
-#projects, #ias-defi-project { scroll-margin-top: 6rem; }
+#top, #profile, #research, #projects, #impact, #people, #contact, #ias-defi-project { scroll-margin-top: 6rem; }
 
 .impact-panel {
   display: grid;
@@ -388,21 +389,31 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 .site-footer { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 1rem; padding: 1.5rem clamp(1.2rem, 4vw, 4rem); border-top: 1px solid var(--line); color: var(--muted); font-size: 0.8rem; }
 .site-footer p { margin: 0; }
 .site-footer a { justify-self: end; }
+.footer-actions { display: flex; justify-self: end; align-items: center; flex-wrap: wrap; justify-content: flex-end; gap: 0.45rem 1.25rem; }
+.site-footer .footer-actions a { justify-self: auto; white-space: nowrap; }
+.quant-entry { color: var(--green); opacity: 0.78; text-decoration: underline; text-decoration-color: transparent; text-underline-offset: 0.25rem; transition: opacity 160ms ease, text-decoration-color 160ms ease; }
+.quant-entry:hover, .quant-entry:focus-visible { opacity: 1; text-decoration-color: currentColor; }
 
 .scroll-reveal { opacity: 0; filter: blur(8px); transform: translate3d(0, 42px, 0) scale(0.988); transition: opacity 900ms cubic-bezier(0.22, 1, 0.36, 1), transform 900ms cubic-bezier(0.22, 1, 0.36, 1), filter 800ms ease; transition-delay: var(--reveal-delay, 0ms); will-change: opacity, transform, filter; }
 .scroll-reveal.is-visible { opacity: 1; filter: blur(0); transform: translate3d(0, 0, 0) scale(1); }
 
 @media (max-width: 1180px) {
-  .site-header { grid-template-columns: 1fr auto; }
-  .nav { display: none; }
-  .projects-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .site-header { grid-template-columns: minmax(0, 1fr) auto; column-gap: 1rem; row-gap: 0.65rem; }
+  .brand { grid-column: 1; grid-row: 1; }
+  .language-switcher { grid-column: 2; grid-row: 1; }
+  .nav { grid-column: 1 / -1; grid-row: 2; justify-content: space-between; gap: 0.5rem; padding-top: 0.55rem; border-top: 1px solid var(--line); font-size: 0.82rem; }
+  #top, #profile, #research, #projects, #impact, #people, #contact, #ias-defi-project { scroll-margin-top: 9rem; }
+}
+
+@media (max-width: 1100px) {
+  .site-footer { grid-template-columns: 1fr; text-align: center; }
+  .footer-actions { justify-self: center; justify-content: center; }
 }
 
 @media (max-width: 1020px) {
   .hero { grid-template-columns: 1fr; min-height: auto; }
   .profile-card { max-width: 560px; }
   .research-grid { grid-template-columns: 1fr; }
-  .projects-grid { grid-template-columns: 1fr; }
   .research-section .section-intro { grid-template-columns: minmax(0, 1fr) minmax(280px, 0.85fr); column-gap: 2.5rem; }
   .research-card { display: grid; grid-template-columns: minmax(240px, 0.8fr) minmax(320px, 1.2fr); }
   .research-visual { height: 100%; min-height: 22rem; }
@@ -413,12 +424,20 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
   .people-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
+@media (max-width: 900px) and (min-width: 721px) {
+  .projects-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .projects-grid .project-card:last-child { grid-column: 1 / -1; }
+}
+
 @media (max-width: 720px) {
   .site-header { padding: 0.7rem 1rem; }
   .brand-copy small { font-size: 0; }
   .brand-copy small::after { content: "SRI Lab"; font-size: 0.7rem; }
   .language-switcher { gap: 0.08rem; padding: 0.16rem; }
   .language-switcher button { min-width: 1.9rem; padding: 0.38rem 0.4rem; font-size: 0.66rem; }
+  .nav { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.2rem 0.35rem; padding-top: 0.45rem; text-align: center; font-size: 0.76rem; }
+  .nav a { padding: 0.12rem 0; }
+  #top, #profile, #research, #projects, #impact, #people, #contact, #ias-defi-project { scroll-margin-top: 10rem; }
   .section-pad { padding-inline: 1.1rem; }
   .hero { padding-top: 4.5rem; padding-bottom: 3rem; }
   h1 { font-size: clamp(3rem, 14vw, 4.3rem); }
@@ -431,6 +450,8 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
   .section-intro h2 { margin-bottom: 1rem; }
   .section-intro .eyebrow { margin-bottom: 1rem; }
   .section-intro > p:last-child { margin-top: 1rem; }
+  .projects-grid { grid-template-columns: 1fr; }
+  .projects-section .section-intro { margin-bottom: 1.5rem; }
   .research-card { display: block; }
   .research-visual { height: 13rem; min-height: 0; }
   .impact-panel { margin-inline: 0.55rem; padding: 2rem 1.2rem; border-radius: 1.7rem; }
