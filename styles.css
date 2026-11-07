@@ -292,6 +292,8 @@ h3 { font-size: 1.18rem; letter-spacing: -0.025em; }
 .projects-section .section-intro { max-width: none; grid-template-columns: minmax(0, 1.25fr) minmax(250px, 0.75fr); align-items: end; margin-bottom: clamp(1.5rem, 3vw, 2.5rem); }
 .projects-section .section-intro h2 { font-size: clamp(2.8rem, 4.2vw, 4.5rem); }
 .projects-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.85rem; }
+.project-card.project-featured { margin-bottom: 0.85rem; background: linear-gradient(120deg, rgba(14, 165, 233, 0.12), rgba(124, 58, 237, 0.08) 58%, rgba(255, 253, 248, 0.82)); }
+.project-featured > p:last-child { max-width: 78ch; }
 .project-card { min-width: 0; padding: clamp(1.35rem, 2.2vw, 1.85rem); border: 1px solid var(--line); border-radius: var(--radius); background: rgba(251, 248, 241, 0.78); }
 #ias-defi-project { background: linear-gradient(120deg, rgba(14, 165, 233, 0.1), rgba(124, 58, 237, 0.09) 58%, rgba(255, 253, 248, 0.76)); }
 .project-card h3 { margin: 0.7rem 0 0.8rem; overflow-wrap: anywhere; font-family: Newsreader, Georgia, serif; font-size: clamp(1.4rem, 2vw, 1.8rem); font-weight: 500; line-height: 1.16; letter-spacing: -0.025em; }
